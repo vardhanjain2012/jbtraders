@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Name | Building Materials</title>
+    <!-- Tailwind CSS for rapid, maintainable styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navigation / Header -->
+    <header class="bg-blue-800 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <div class="text-2xl font-bold mb-2 sm:mb-0">
+                [Your Business Name]
+            </div>
+            <div class="flex gap-4">
+                <!-- 2. Phone link that prompts dialer -->
+                <a href="tel:+919876543210"
+                    class="flex items-center gap-2 bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-lg transition">
+                    📞 Call Us
+                </a>
+                <!-- 1. Direct WhatsApp link -->
+                <a href="https://wa.me/919876543210" target="_blank"
+                    class="flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-4 py-2 rounded-lg transition font-semibold">
+                    💬 WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-white py-12 border-b">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">Premium Construction Materials</h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">Supplying top-quality cement, aggregates, and flooring
+                solutions for residential and commercial projects.</p>
+        </div>
+    </section>
+
+    <!-- 4. Products Section -->
+    <section class="py-12 max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-blue-900">Our Products</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Product Cards -->
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center font-semibold text-lg hover:shadow-md transition">
+                Cement</div>
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center font-semibold text-lg hover:shadow-md transition">
+                Cover Blocks</div>
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center font-semibold text-lg hover:shadow-md transition">
+                Sand</div>
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center font-semibold text-lg hover:shadow-md transition">
+                Gravel & Gitti</div>
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center font-semibold text-lg hover:shadow-md transition">
+                Bricks</div>
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center font-semibold text-lg hover:shadow-md transition">
+                Tile Adhesive</div>
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center font-semibold text-lg hover:shadow-md transition col-span-2 md:col-span-1 lg:col-span-2">
+                Flooring Solutions</div>
+        </div>
+    </section>
+
+    <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
+
+        <!-- 3. Contact & Location -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+            <h2 class="text-2xl font-bold mb-6 text-blue-900">Visit Our Store</h2>
+            <div class="space-y-4 text-gray-700">
+                <p class="flex items-start gap-3">
+                    <span class="text-xl">📍</span>
+                    <span>
+                        <strong>Address:</strong><br>
+                        123 Market Road, Building Hub<br>
+                        City Name, State, 123456
+                    </span>
+                </p>
+                <!-- Google Maps Link -->
+                <a href="https://maps.google.com/?q=28.6139,77.2090" target="_blank"
+                    class="inline-block mt-2 text-blue-600 hover:text-blue-800 underline font-medium">
+                    View on Google Maps &rarr;
+                </a>
+
+                <hr class="my-4">
+
+                <p class="flex items-center gap-3">
+                    <span class="text-xl">📞</span>
+                    <strong>Phone:</strong> <a href="tel:+919876543210" class="text-blue-600 hover:underline">+91 98765
+                        43210</a>
+                </p>
+                <p class="flex items-center gap-3">
+                    <span class="text-xl">⏰</span>
+                    <strong>Hours:</strong> Mon-Sat (8:00 AM - 8:00 PM)
+                </p>
+            </div>
+        </div>
+
+        <!-- 5. WhatsApp Enquiry Form -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+            <h2 class="text-2xl font-bold mb-6 text-blue-900">Send an Enquiry</h2>
+            <form id="enquiryForm" onsubmit="sendToWhatsApp(event)" class="space-y-4">
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1">Your Name *</label>
+                        <input type="text" id="name" required
+                            class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1">Phone Number *</label>
+                        <input type="tel" id="phone" required
+                            class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                </div>
+
+                <!-- Checkboxes for 0, 1, or Multiple Product Selection -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">Interested In (Select
+                        Multiple):</label>
+                    <div class="grid grid-cols-2 gap-2 text-sm">
+                        <label class="flex items-center gap-2 cursor-pointer"><input type="checkbox" name="product"
+                                value="Cement" class="w-4 h-4 text-blue-600"> Cement</label>
+                        <label class="flex items-center gap-2 cursor-pointer"><input type="checkbox" name="product"
+                                value="Cover Blocks" class="w-4 h-4 text-blue-600"> Cover Blocks</label>
+                        <label class="flex items-center gap-2 cursor-pointer"><input type="checkbox" name="product"
+                                value="Sand" class="w-4 h-4 text-blue-600"> Sand</label>
+                        <label class="flex items-center gap-2 cursor-pointer"><input type="checkbox" name="product"
+                                value="Gravel" class="w-4 h-4 text-blue-600"> Gravel</label>
+                        <label class="flex items-center gap-2 cursor-pointer"><input type="checkbox" name="product"
+                                value="Bricks" class="w-4 h-4 text-blue-600"> Bricks</label>
+                        <label class="flex items-center gap-2 cursor-pointer"><input type="checkbox" name="product"
+                                value="Tile Adhesive" class="w-4 h-4 text-blue-600"> Tile Adhesive</label>
+                        <label class="flex items-center gap-2 cursor-pointer col-span-2"><input type="checkbox"
+                                name="product" value="Flooring Solutions" class="w-4 h-4 text-blue-600"> Flooring
+                            Solutions</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Message / Quantity details</label>
+                    <textarea id="details" rows="2"
+                        class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg transition flex justify-center items-center gap-2">
+                    💬 Send via WhatsApp
+                </button>
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="bg-gray-900 text-gray-400 text-center py-6">
+        <p>&copy; 2026 [Your Business Name]. All rights reserved.</p>
+    </footer>
+
+    <!-- WhatsApp Logic -->
+    <script>
+        function sendToWhatsApp(e) {
+            e.preventDefault();
+
+            // UPDATE THIS: Your business WhatsApp number (Country code + Number, no + sign)
+            const businessNumber = "919876543210";
+
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const details = document.getElementById('details').value;
+
+            // Gather all checked products
+            const checkboxes = document.querySelectorAll('input[name="product"]:checked');
+            let selectedProducts = [];
+            checkboxes.forEach((cb) => {
+                selectedProducts.push(cb.value);
+            });
+
+            // Format product text
+            const productText = selectedProducts.length > 0 ? selectedProducts.join(", ") : "General Enquiry";
+
+            // Construct the final message
+            const message = `Hello! I am contacting you from the website:%0A%0A` +
+                `*Name:* ${encodeURIComponent(name)}%0A` +
+                `*Phone:* ${encodeURIComponent(phone)}%0A` +
+                `*Interested In:* ${encodeURIComponent(productText)}%0A` +
+                `*Message:* ${encodeURIComponent(details || 'No additional details provided.')}`;
+
+            // Open WhatsApp (App on mobile, Web on desktop)
+            window.open(`https://wa.me/${businessNumber}?text=${message}`, '_blank');
+        }
+    </script>
+</body>
+
+</html>
