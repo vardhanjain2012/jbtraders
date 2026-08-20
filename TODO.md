@@ -1,16 +1,23 @@
 # TODO
 
-## Review `[TO CONFIRM]` placeholders before going live
+## Write real copy where placeholders were removed
 
-- `index.html` — product section copy (Cement, Tile Adhesives, Grouts & Fillers,
-  Sand & Aggregates, Bricks & Blocks, Waterproofing) and the Delivery Areas
-  section (currently just says "Indore" — list actual localities served).
-- `cement.html`, `tile-adhesives.html`, `sand-aggregates.html`,
+The visible `[TO CONFIRM]` markers were stripped from every page (round 2
+fix) so nothing broken shows on the live site, but the underlying gaps are
+still open — none of this content exists anywhere yet:
+
+- `index.html`, `cement.html`, `tile-adhesives.html`, `sand-aggregates.html`,
   `bricks-blocks.html`, `waterproofing.html` — bag sizes, stock availability,
   brands/grades carried, pricing, minimum order quantity, delivery timelines.
-- `faq.html` — all 7 answers (delivery charges, minimum order quantity, brands
-  stocked, areas served, payment methods, bulk/contractor supply, delivery
-  timelines). Also fill matching `text` values in the FAQPage JSON-LD block.
+  The sentences that used to end in a placeholder now just stop short of
+  that detail; add it back in as real copy when known.
+- `faq.html` — all 7 questions currently have **no answer text at all** (the
+  headings are there, the `[TO CONFIRM]` paragraphs were removed rather than
+  left visible). Write the real answers, then re-add FAQPage JSON-LD in the
+  `<head>` (removed for the same reason — a schema with placeholder answers
+  wouldn't match the visible page). Also decide the delivery-area list here:
+  currently only Kesharbagh Road, Annapurna Area, and Sudama Nagar are named
+  on `index.html` — expand `faq.html`'s "which areas" answer accordingly.
 
 ## Add images
 
