@@ -56,11 +56,29 @@
             <p class="text-lg text-gray-600">Grey cement, white cement, and wall putty from UltraTech, JK, Ambuja
                 and Birla — supplied to homes and construction sites across Indore.</p>
         </div>
+        <div class="max-w-6xl mx-auto px-4 mt-6 overflow-x-auto">
+            <div role="tablist" aria-label="Cement categories" class="flex gap-2 w-max pb-1">
+                <button type="button" role="tab" data-tab="all" aria-selected="true"
+                    class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold bg-blue-800 text-white">All</button>
+                <button type="button" role="tab" data-tab="grey-cement" aria-selected="false"
+                    aria-controls="panel-grey-cement"
+                    class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">Grey
+                    Cement</button>
+                <button type="button" role="tab" data-tab="white-cement" aria-selected="false"
+                    aria-controls="panel-white-cement"
+                    class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">White
+                    Cement</button>
+                <button type="button" role="tab" data-tab="wall-putty" aria-selected="false"
+                    aria-controls="panel-wall-putty"
+                    class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">Wall
+                    Putty</button>
+            </div>
+        </div>
     </section>
 
     <section class="py-12 max-w-6xl mx-auto px-4 space-y-12">
 
-        <div>
+        <div id="panel-grey-cement" data-panel="grey-cement" role="tabpanel">
             <h2 class="text-2xl font-bold text-blue-900 mb-3">Grey Cement</h2>
             <p class="text-gray-700 mb-6">All major cement brands available. Tell us what you need and we'll arrange
                 it.</p>
@@ -120,7 +138,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="panel-white-cement" data-panel="white-cement" role="tabpanel">
             <h2 class="text-2xl font-bold text-blue-900 mb-3">White Cement</h2>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
@@ -161,7 +179,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="panel-wall-putty" data-panel="wall-putty" role="tabpanel">
             <h2 class="text-2xl font-bold text-blue-900 mb-3">Wall Putty</h2>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
@@ -210,6 +228,39 @@
     <footer class="bg-gray-900 text-gray-400 text-center py-6">
         <p>&copy; 2026 J.B. Traders. All rights reserved.</p>
     </footer>
+
+    <script>
+        (function () {
+            var tabs = document.querySelectorAll('[data-tab]');
+            var panels = document.querySelectorAll('[data-panel]');
+
+            function activate(name, updateHash) {
+                tabs.forEach(function (tab) {
+                    var active = tab.dataset.tab === name;
+                    tab.setAttribute('aria-selected', active);
+                    tab.classList.toggle('bg-blue-800', active);
+                    tab.classList.toggle('text-white', active);
+                    tab.classList.toggle('bg-gray-100', !active);
+                    tab.classList.toggle('text-gray-700', !active);
+                });
+                panels.forEach(function (panel) {
+                    panel.hidden = name !== 'all' && panel.dataset.panel !== name;
+                });
+                if (updateHash) {
+                    var url = name === 'all' ? location.pathname + location.search : '#' + name;
+                    history.replaceState(null, '', url);
+                }
+            }
+
+            tabs.forEach(function (tab) {
+                tab.addEventListener('click', function () {
+                    activate(tab.dataset.tab, true);
+                });
+            });
+
+            activate(location.hash.replace('#', '') || 'all', false);
+        })();
+    </script>
 
 </body>
 
