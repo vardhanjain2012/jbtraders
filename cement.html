@@ -56,27 +56,32 @@
             <p class="text-lg text-gray-600">Grey cement, white cement, and wall putty from UltraTech, JK, Ambuja
                 and Birla — supplied to homes and construction sites across Indore.</p>
         </div>
-        <div class="max-w-6xl mx-auto px-4 mt-6 overflow-x-auto">
-            <div role="tablist" aria-label="Cement categories" class="flex gap-2 w-max pb-1">
+    </section>
+
+    <section class="py-12 max-w-6xl mx-auto px-4">
+      <div class="flex flex-col md:flex-row gap-8">
+
+        <div class="overflow-x-auto md:overflow-visible md:w-52 flex-shrink-0">
+            <div role="tablist" aria-label="Cement categories" aria-orientation="vertical"
+                class="flex md:flex-col gap-2 w-max md:w-full pb-1 md:pb-0 md:sticky md:top-24">
                 <button type="button" role="tab" data-tab="all" aria-selected="true"
-                    class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold bg-blue-800 text-white">All</button>
+                    class="tab-btn whitespace-nowrap md:whitespace-normal md:w-full md:text-left px-4 py-2 rounded-full md:rounded-lg text-sm font-semibold bg-blue-800 text-white">All</button>
                 <button type="button" role="tab" data-tab="grey-cement" aria-selected="false"
                     aria-controls="panel-grey-cement"
-                    class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">Grey
+                    class="tab-btn whitespace-nowrap md:whitespace-normal md:w-full md:text-left px-4 py-2 rounded-full md:rounded-lg text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">Grey
                     Cement</button>
                 <button type="button" role="tab" data-tab="white-cement" aria-selected="false"
                     aria-controls="panel-white-cement"
-                    class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">White
+                    class="tab-btn whitespace-nowrap md:whitespace-normal md:w-full md:text-left px-4 py-2 rounded-full md:rounded-lg text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">White
                     Cement</button>
                 <button type="button" role="tab" data-tab="wall-putty" aria-selected="false"
                     aria-controls="panel-wall-putty"
-                    class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">Wall
+                    class="tab-btn whitespace-nowrap md:whitespace-normal md:w-full md:text-left px-4 py-2 rounded-full md:rounded-lg text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">Wall
                     Putty</button>
             </div>
         </div>
-    </section>
 
-    <section class="py-12 max-w-6xl mx-auto px-4 space-y-12">
+        <div class="flex-1 space-y-12">
 
         <div id="panel-grey-cement" data-panel="grey-cement" role="tabpanel">
             <h2 class="text-2xl font-bold text-blue-900 mb-3">Grey Cement</h2>
@@ -252,6 +257,9 @@
             </a>
         </div>
 
+        </div>
+
+      </div>
     </section>
 
     <footer class="bg-gray-900 text-gray-400 text-center py-6">
