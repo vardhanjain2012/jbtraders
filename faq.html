@@ -19,8 +19,78 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- TODO: re-add FAQPage JSON-LD once real answers are written below —
-         a schema with placeholder answers would mismatch the visible page. -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does J.B. Traders sell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cement, tile adhesives, epoxy grouts, tile fillers, cover blocks, waterproofing compounds and wall putty are our main lines. We also supply reti (sand), gitti (aggregate), churi (stone dust) and eent (bricks)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which brands does J.B. Traders stock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cement — UltraTech, JK Super, Wonder Cement, JK White and Birla White, plus Birla Wall Care Putty. Tile adhesives and grouts — Kerakoll, Roff, Tenax, Mapei and Araldite. Other brands arranged on request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which areas does J.B. Traders deliver to?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All areas of Indore, plus Dewas, Sanwer, Rau, Pithampur and Dr. Ambedkar Nagar (Mhow)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a minimum order quantity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No minimum order. We supply single bags as well as bulk truck-load quantities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What payment methods do you accept?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cash, UPI and net banking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you supply in bulk for contractors and builders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Contact us with your requirement and we will quote for bulk quantities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are your delivery timelines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most orders are delivered within one day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long has J.B. Traders been in business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Since 6 October 1992 — over thirty years supplying building materials in Indore. We deal transparently on quantity, quality and price."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="bg-gray-50 text-gray-800 font-sans antialiased">
@@ -44,9 +114,9 @@
                 <a href="/" class="hover:underline">Home</a>
                 <a href="cement.html" class="hover:underline">Cement</a>
                 <a href="tile-adhesives.html" class="hover:underline">Tile Adhesives</a>
-                <a href="sand-aggregates.html" class="hover:underline">Sand &amp; Aggregates</a>
-                <a href="bricks-blocks.html" class="hover:underline">Bricks</a>
+                <a href="sand-bricks-aggregates.html" class="hover:underline">Sand, Bricks &amp; Aggregates</a>
                 <a href="waterproofing.html" class="hover:underline">Waterproofing</a>
+                <a href="construction-accessories.html" class="hover:underline">Accessories</a>
                 <a href="faq.html" class="hover:underline font-bold">FAQ</a>
                 <a href="/#contact" class="hover:underline">Contact</a>
             </div>
@@ -57,39 +127,58 @@
         <div class="max-w-4xl mx-auto px-4">
             <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Frequently Asked Questions</h1>
             <p class="text-lg text-gray-600">Common questions about ordering building materials from J.B. Traders
-                in Indore. We're still filling in full answers below — for anything urgent, call or WhatsApp us
-                directly.</p>
+                in Indore. For anything not covered here, call or WhatsApp us directly.</p>
         </div>
     </section>
 
     <section class="py-12 max-w-4xl mx-auto px-4 space-y-8">
 
         <div>
-            <h2 class="text-xl font-bold text-blue-900 mb-2">What are your delivery charges?</h2>
+            <h2 class="text-xl font-bold text-blue-900 mb-2">What does J.B. Traders sell?</h2>
+            <p class="text-gray-700">Cement, tile adhesives, epoxy grouts, tile fillers, cover blocks, waterproofing
+                compounds and wall putty are our main lines. We also supply reti (sand), gitti (aggregate), churi
+                (stone dust) and eent (bricks).</p>
+        </div>
+
+        <div>
+            <h2 class="text-xl font-bold text-blue-900 mb-2">Which brands does J.B. Traders stock?</h2>
+            <p class="text-gray-700">Cement — UltraTech, JK Super, Wonder Cement, JK White and Birla White, plus
+                Birla Wall Care Putty. Tile adhesives and grouts — Kerakoll, Roff, Tenax, Mapei and Araldite. Other
+                brands arranged on request.</p>
+        </div>
+
+        <div>
+            <h2 class="text-xl font-bold text-blue-900 mb-2">Which areas does J.B. Traders deliver to?</h2>
+            <p class="text-gray-700">All areas of Indore, plus Dewas, Sanwer, Rau, Pithampur and Dr. Ambedkar Nagar
+                (Mhow).</p>
         </div>
 
         <div>
             <h2 class="text-xl font-bold text-blue-900 mb-2">Is there a minimum order quantity?</h2>
-        </div>
-
-        <div>
-            <h2 class="text-xl font-bold text-blue-900 mb-2">Which brands do you stock?</h2>
-        </div>
-
-        <div>
-            <h2 class="text-xl font-bold text-blue-900 mb-2">Which areas in Indore do you deliver to?</h2>
+            <p class="text-gray-700">No minimum order. We supply single bags as well as bulk truck-load
+                quantities.</p>
         </div>
 
         <div>
             <h2 class="text-xl font-bold text-blue-900 mb-2">What payment methods do you accept?</h2>
+            <p class="text-gray-700">Cash, UPI and net banking.</p>
         </div>
 
         <div>
-            <h2 class="text-xl font-bold text-blue-900 mb-2">Do you supply in bulk for contractors?</h2>
+            <h2 class="text-xl font-bold text-blue-900 mb-2">Do you supply in bulk for contractors and builders?</h2>
+            <p class="text-gray-700">Yes. Contact us with your requirement and we will quote for bulk
+                quantities.</p>
         </div>
 
         <div>
             <h2 class="text-xl font-bold text-blue-900 mb-2">What are your delivery timelines?</h2>
+            <p class="text-gray-700">Most orders are delivered within one day.</p>
+        </div>
+
+        <div>
+            <h2 class="text-xl font-bold text-blue-900 mb-2">How long has J.B. Traders been in business?</h2>
+            <p class="text-gray-700">Since 6 October 1992 — over thirty years supplying building materials in
+                Indore. We deal transparently on quantity, quality and price.</p>
         </div>
 
         <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200 flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -107,7 +196,7 @@
     </section>
 
     <footer class="bg-gray-900 text-gray-400 text-center py-6">
-        <p>&copy; 2026 J.B. Traders. All rights reserved.</p>
+        <p>&copy; 2026 J.B. Traders · Established 1992. All rights reserved.</p>
     </footer>
 
 </body>

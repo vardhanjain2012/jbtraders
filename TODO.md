@@ -6,8 +6,8 @@ The visible `[TO CONFIRM]` markers were stripped from every page (round 2
 fix) so nothing broken shows on the live site, but the underlying gaps are
 still open — none of this content exists anywhere yet:
 
-- `index.html`, `cement.html`, `tile-adhesives.html`, `sand-aggregates.html`,
-  `bricks-blocks.html`, `waterproofing.html` — bag sizes, stock availability,
+- `index.html`, `cement.html`, `tile-adhesives.html`,
+  `sand-bricks-aggregates.html`, `waterproofing.html` — bag sizes, stock availability,
   brands/grades carried, pricing, minimum order quantity, delivery timelines.
   The sentences that used to end in a placeholder now just stop short of
   that detail; add it back in as real copy when known.
