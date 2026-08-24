@@ -16,7 +16,7 @@ const config = {
 
     // Operating Hours
     hoursMonSat: "9:00 AM - 7:00 PM",
-    hoursSun: "9:00 AM - 2:00 PM",
+    hoursSun: "9:00 AM - 1:00 PM",
 
     // Product List (Add or remove items here)
     products: [
