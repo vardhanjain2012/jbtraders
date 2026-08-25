@@ -17,6 +17,26 @@ export default function (eleventyConfig) {
     )
   );
 
+  // Product pages are generated from _data/products.json, so their breadcrumbs
+  // are derived rather than written out in front matter.
+  eleventyConfig.addFilter("productBreadcrumbs", (product) => {
+    if (!product) return null;
+    return [
+      { name: "Home", url: "https://jbtindore.in/" },
+      { name: product.categoryLabel, url: `https://jbtindore.in/${product.category}.html` },
+      { name: product.name, url: `https://jbtindore.in/products/${product.slug}.html` }
+    ];
+  });
+
+  eleventyConfig.addFilter("bySlug", (products, slug) =>
+    products.find((p) => p.slug === slug)
+  );
+
+  // A related-product entry may carry its own name/brand/image, which wins over
+  // the looked-up product. Used where a card's label has historically differed
+  // from the page it links to.
+  eleventyConfig.addFilter("merge", (base, overrides) => ({ ...base, ...overrides }));
+
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/sitemap.xml");

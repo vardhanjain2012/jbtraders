@@ -1,45 +1,44 @@
 ---
+pagination:
+  data: products
+  size: 1
+  alias: product
+permalink: "products/{{ product.slug }}.html"
 layout: base.njk
-title: "Dr. Fixit URP — Dr. Fixit Waterproofing in Indore | J.B. Traders"
-description: "Dr. Fixit URP is a waterproofing compound applied on roofs, terraces and external walls to stop water seepage before it starts."
-navActive: "waterproofing"
-breadcrumbs:
-  - name: "Home"
-    url: "https://jbtindore.in/"
-  - name: "Waterproofing"
-    url: "https://jbtindore.in/waterproofing.html"
-  - name: "Dr. Fixit URP"
-    url: "https://jbtindore.in/products/dr-fixit-urp.html"
+eleventyComputed:
+  title: "{{ product.title }}"
+  description: "{{ product.description }}"
+  navActive: "{{ product.category }}"
 ---
 
     <div class="max-w-4xl mx-auto px-4 pt-6">
-        <a href="/waterproofing.html#dr-fixit"
+        <a href="/{{ product.category }}.html{% if product.backAnchor %}#{{ product.backAnchor }}{% endif %}"
             class="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 hover:text-blue-800 hover:underline">
-            &larr; Back to Waterproofing
+            &larr; Back to {{ product.categoryLabel }}
         </a>
     </div>
 
     <div class="max-w-4xl mx-auto px-4 pt-2 text-sm text-gray-500">
         <a href="/" class="hover:underline hover:text-blue-700">Home</a>
         <span class="mx-1">&rsaquo;</span>
-        <a href="/waterproofing.html" class="hover:underline hover:text-blue-700">Waterproofing</a>
+        <a href="/{{ product.category }}.html" class="hover:underline hover:text-blue-700">{{ product.categoryLabel }}</a>
         <span class="mx-1">&rsaquo;</span>
-        <span class="text-gray-700">Dr. Fixit URP</span>
+        <span class="text-gray-700">{{ product.name }}</span>
     </div>
 
     <section class="py-8 max-w-4xl mx-auto px-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-gray-200">
-            <img src="/images/products/dr-fixit-urp.webp" alt="Dr. Fixit URP — J.B. Traders, Indore" loading="lazy" width="400"
+            <img src="{{ product.image }}" alt="{{ product.alt }}" loading="lazy" width="400"
                 height="400" class="w-full aspect-square object-cover bg-gray-100 rounded-lg">
             <div class="flex flex-col">
-                <h1 class="text-3xl font-extrabold text-gray-900 mb-1">Dr. Fixit URP</h1>
-                <p class="text-sm font-semibold text-gray-500 mb-6">Dr. Fixit</p>
+                <h1 class="text-3xl font-extrabold text-gray-900 mb-1">{{ product.name }}</h1>
+                <p class="text-sm font-semibold text-gray-500 mb-6">{{ product.brand }}</p>
                 <div class="flex flex-col gap-3">
                     <a href="tel:{{ site.phone }}"
                         class="flex items-center justify-center gap-2 bg-blue-700 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition font-semibold">
                         📞 Call for Availability
                     </a>
-                    <a href="https://wa.me/{{ site.whatsapp }}?text=Hi%2C%20I%20want%20to%20enquire%20about%20Dr.%20Fixit%20URP" target="_blank"
+                    <a href="https://wa.me/{{ site.whatsapp }}?text={{ ('Hi, I want to enquire about ' + product.enquiryName) | urlencode }}" target="_blank"
                         class="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white px-6 py-3 rounded-lg transition font-semibold">
                         💬 Enquire on WhatsApp
                     </a>
@@ -50,24 +49,29 @@ breadcrumbs:
 
     <section class="pb-8 max-w-4xl mx-auto px-4">
         <div class="bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-gray-200 text-gray-700 space-y-4">
-            <p>Dr. Fixit URP is a waterproofing compound applied on roofs, terraces and external walls to stop water seepage before it starts.</p>
-            <p>Suited to both new construction and repair of existing seepage problems.</p>
+{%- for para in product.paragraphs %}
+            <p>{{ para }}</p>
+{%- endfor %}
         </div>
     </section>
+{%- if product.related.length %}
 
     <section class="pb-12 max-w-4xl mx-auto px-4">
         <h2 class="text-xl font-bold text-blue-900 mb-4">Related Products</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <a href="/products/dr-fixit-lw-plus.html"
+{%- for entry in product.related %}
+{%- set r = ((products | bySlug(entry.slug)) | merge(entry)) if entry.slug else entry %}
+{%- set href = ("/products/" + r.slug + ".html") if entry.slug else entry.href %}
+            <a href="{{ href }}"
                 class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col hover:shadow-md hover:border-blue-200 transition">
-                <img src="/images/products/dr-fixit-lw-plus.webp" alt="Dr. Fixit LW+ — J.B. Traders, Indore" loading="lazy" width="400"
+                <img src="{{ r.image }}" alt="{{ r.alt }}" loading="lazy" width="400"
                     height="400" class="w-full aspect-square object-cover bg-gray-100">
                 <div class="p-3">
-                    <h3 class="text-sm font-bold text-blue-900">Dr. Fixit LW+</h3>
-                    <p class="text-xs text-gray-500">Dr. Fixit</p>
+                    <h3 class="text-sm font-bold text-blue-900">{{ r.name }}</h3>
+                    <p class="text-xs text-gray-500">{{ r.brand }}</p>
                 </div>
             </a>
+{%- endfor %}
         </div>
     </section>
-
-
+{%- endif %}

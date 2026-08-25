@@ -27,10 +27,11 @@
 {%- endif %}
 
     <link rel="stylesheet" href="/css/style.css">
-{%- if breadcrumbs %}
+{%- set bc = breadcrumbs or (product | productBreadcrumbs) %}
+{%- if bc %}
 
     <script type="application/ld+json">
-{{ breadcrumbs | breadcrumbLd | safe }}
+{{ bc | breadcrumbLd | safe }}
     </script>
 {%- endif %}
 {%- if headInclude %}

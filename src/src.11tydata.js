@@ -12,13 +12,16 @@ export default {
       return data.page.filePathStem.replace(/^\//, "") + ".html";
     },
 
-    // Canonical always mirrors the output path, so it cannot drift. A page sets
-    // `canonical: false` to suppress it entirely (404 does).
+    // Canonical always mirrors the output URL, so it cannot drift. Derived from
+    // page.url rather than filePathStem, because a paginated template's stem is
+    // the source file, not the page it generates. A page sets `canonical: false`
+    // to suppress it entirely (404 does).
     canonical: (data) => {
       if (data.canonical === false) return false;
       if (data.canonical) return data.canonical;
-      const stem = data.page.filePathStem.replace(/^\//, "");
-      return stem === "index" ? SITE + "/" : `${SITE}/${stem}.html`;
+      const url = data.page.url;
+      if (!url) return false;
+      return url === "/index.html" ? SITE + "/" : SITE + url;
     }
   }
 };
