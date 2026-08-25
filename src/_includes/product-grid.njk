@@ -15,7 +15,7 @@
 {%- if cat.tabs.length > 1 %}
 {%- for tab in cat.tabs %}
                 <button type="button" role="tab" data-tab="{{ tab.key }}" aria-selected="false"
-                    aria-controls="panel-{{ tab.key }}"
+                    id="tab-{{ tab.key }}" aria-controls="panel-{{ tab.key }}"
                     class="tab-btn whitespace-nowrap md:whitespace-normal md:w-full md:text-left px-4 py-2 rounded-full md:rounded-lg text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-gray-200">{{ tab.buttonLabel | default(tab.label) }}</button>
 {%- endfor %}
 {%- endif %}
@@ -25,7 +25,7 @@
         <div class="flex-1 space-y-12">
 {%- for tab in cat.tabs %}
 
-        <div id="panel-{{ tab.key }}" data-panel="{{ tab.key }}" role="tabpanel">
+        <div id="panel-{{ tab.key }}" data-panel="{{ tab.key }}" role="tabpanel"{% if cat.tabs.length > 1 %} aria-labelledby="tab-{{ tab.key }}"{% endif %}>
             <h2{% if tab.anchorId %} id="{{ tab.anchorId }}"{% endif %} class="text-2xl font-bold text-blue-900 mb-3{% if tab.anchorId %} scroll-mt-24{% endif %}">{{ tab.label }}</h2>
 {%- if tab.note %}
             <p class="text-gray-700 mb-6">{{ tab.note }}</p>
@@ -55,7 +55,7 @@
 {%- endif %}
                             <a href="https://wa.me/{{ site.whatsapp }}?text={{ ('Hi, I want to enquire about ' + c.enquiryName) | urlencode }}"
                                 target="_blank"
-                                class="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white px-3 py-2 rounded-lg transition font-semibold text-sm">
+                                class="flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-3 py-2 rounded-lg transition font-semibold text-sm">
                                 💬 Enquire</a>
                         </div>
                     </div>
