@@ -1,3 +1,7 @@
+import fs from "node:fs";
+
+const categories = JSON.parse(fs.readFileSync("src/_data/categories.json", "utf8"));
+
 export default function (eleventyConfig) {
   // Renders a schema.org BreadcrumbList from front-matter `breadcrumbs`.
   eleventyConfig.addFilter("breadcrumbLd", (items) =>
@@ -23,7 +27,10 @@ export default function (eleventyConfig) {
     if (!product) return null;
     return [
       { name: "Home", url: "https://jbtindore.in/" },
-      { name: product.categoryLabel, url: `https://jbtindore.in/${product.category}.html` },
+      {
+        name: categories[product.category].label,
+        url: `https://jbtindore.in/${product.category}.html`
+      },
       { name: product.name, url: `https://jbtindore.in/products/${product.slug}.html` }
     ];
   });

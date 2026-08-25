@@ -1,186 +1,25 @@
 [
   {
-    "slug": "araldite",
-    "name": "Araldite",
-    "subtitle": "Epoxy Resin & Hardener",
-    "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "cleaners-other",
-    "image": "/images/products/araldite.webp",
-    "alt": "Araldite — J.B. Traders, Indore",
-    "enquiryName": "Araldite",
-    "title": "Araldite — Araldite Tile Adhesive in Indore | J.B. Traders",
-    "description": "Araldite is a two-part epoxy resin and hardener for strong, waterproof bonding of metal, wood, ceramic, glass and stone.",
-    "paragraphs": [
-      "Araldite is a two-part epoxy resin and hardener for strong, waterproof bonding of metal, wood, ceramic, glass and stone."
-    ],
-    "related": [
-      {
-        "slug": "kerakoll-biotile"
-      },
-      {
-        "slug": "kerakoll-biofix"
-      },
-      {
-        "slug": "kerakoll-bioflex"
-      },
-      {
-        "slug": "kerakoll-h40-gel"
-      }
-    ]
-  },
-  {
-    "slug": "birla-wall-care-putty",
-    "name": "Birla Wall Care Putty",
-    "subtitle": "Wall Putty",
-    "category": "cement",
-    "categoryLabel": "Cement",
-    "backAnchor": "wall-putty",
-    "image": "/images/products/birla-wall-care-putty.webp",
-    "alt": "Birla Wall Care Putty — J.B. Traders, Indore",
-    "enquiryName": "Birla Wall Care Putty",
-    "title": "Birla Wall Care Putty — Birla Cement in Indore | J.B. Traders",
-    "description": "Birla Wall Care Putty is applied before painting to fill minor cracks and even out the wall surface, indoors and outdoors, giving a smooth base coat for...",
-    "paragraphs": [
-      "Birla Wall Care Putty is applied before painting to fill minor cracks and even out the wall surface, indoors and outdoors, giving a smooth base coat for paint."
-    ],
-    "related": [
-      {
-        "slug": "ultratech-cement"
-      },
-      {
-        "slug": "jk-super-cement"
-      },
-      {
-        "slug": "wonder-cement"
-      },
-      {
-        "slug": "birla-white-cement"
-      }
-    ]
-  },
-  {
-    "slug": "birla-white-cement",
-    "name": "Birla White",
-    "subtitle": "White Cement",
-    "category": "cement",
-    "categoryLabel": "Cement",
-    "backAnchor": "white-cement",
-    "image": "/images/products/birla-white-cement.webp",
-    "alt": "Birla White — J.B. Traders, Indore",
-    "enquiryName": "Birla White",
-    "title": "Birla White — Birla Cement in Indore | J.B. Traders",
-    "description": "Birla White cement is used for finishing work, repair patches and marble or tile joint filling where a smooth, non-grey surface is needed.",
-    "paragraphs": [
-      "Birla White cement is used for finishing work, repair patches and marble or tile joint filling where a smooth, non-grey surface is needed."
-    ],
-    "related": [
-      {
-        "slug": "ultratech-cement"
-      },
-      {
-        "slug": "jk-super-cement"
-      },
-      {
-        "slug": "wonder-cement"
-      },
-      {
-        "slug": "jk-white-cement"
-      }
-    ]
-  },
-  {
-    "slug": "dr-fixit-lw-plus",
-    "name": "Dr. Fixit LW+",
-    "subtitle": "Dr. Fixit",
-    "category": "waterproofing",
-    "categoryLabel": "Waterproofing",
-    "backAnchor": "dr-fixit",
-    "image": "/images/products/dr-fixit-lw-plus.webp",
-    "alt": "Dr. Fixit LW+ — J.B. Traders, Indore",
-    "enquiryName": "Dr. Fixit LW+",
-    "title": "Dr. Fixit LW+ — Dr. Fixit Waterproofing in Indore | J.B. Traders",
-    "description": "Dr. Fixit LW+ is a liquid waterproofing compound mixed into plaster and concrete to prevent water seepage on roofs, terraces and bathrooms.",
-    "paragraphs": [
-      "Dr. Fixit LW+ is a liquid waterproofing compound mixed into plaster and concrete to prevent water seepage on roofs, terraces and bathrooms."
-    ],
-    "related": [
-      {
-        "slug": "dr-fixit-urp"
-      }
-    ]
-  },
-  {
-    "slug": "dr-fixit-urp",
-    "name": "Dr. Fixit URP",
-    "subtitle": "Dr. Fixit",
-    "category": "waterproofing",
-    "categoryLabel": "Waterproofing",
-    "backAnchor": "dr-fixit",
-    "image": "/images/products/dr-fixit-urp.webp",
-    "alt": "Dr. Fixit URP — J.B. Traders, Indore",
-    "enquiryName": "Dr. Fixit URP",
-    "title": "Dr. Fixit URP — Dr. Fixit Waterproofing in Indore | J.B. Traders",
-    "description": "Dr. Fixit URP is a waterproofing compound applied on roofs, terraces and external walls to stop water seepage before it starts.",
-    "paragraphs": [
-      "Dr. Fixit URP is a waterproofing compound applied on roofs, terraces and external walls to stop water seepage before it starts.",
-      "Suited to both new construction and repair of existing seepage problems."
-    ],
-    "related": [
-      {
-        "slug": "dr-fixit-lw-plus"
-      }
-    ]
-  },
-  {
-    "slug": "epoxy-grout",
-    "name": "Epoxy Grout",
-    "subtitle": "Grouts & Fillers",
-    "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "grouts",
-    "image": "/images/products/epoxy-grout.webp",
-    "alt": "Epoxy Grout — J.B. Traders, Indore",
-    "enquiryName": "Epoxy Grout",
-    "title": "Epoxy Grout — Tile Adhesive in Indore | J.B. Traders",
-    "description": "Epoxy grout seals the gaps between tiles once laid, resisting staining and water penetration better than standard cement grout — important in kitchens,...",
-    "paragraphs": [
-      "Epoxy grout seals the gaps between tiles once laid, resisting staining and water penetration better than standard cement grout — important in kitchens, bathrooms and high-traffic flooring."
-    ],
-    "related": [
-      {
-        "slug": "kerakoll-biotile"
-      },
-      {
-        "slug": "kerakoll-biofix"
-      },
-      {
-        "slug": "kerakoll-bioflex"
-      },
-      {
-        "slug": "kerakoll-h40-gel"
-      }
-    ]
-  },
-  {
-    "slug": "jk-lakshmi-cement",
-    "name": "JK Lakshmi",
+    "slug": "ultratech-cement",
+    "name": "UltraTech",
     "subtitle": "Grey Cement",
     "category": "cement",
-    "categoryLabel": "Cement",
-    "backAnchor": "grey-cement",
-    "image": "/images/products/jk-lakshmi-cement.webp",
-    "alt": "JK Lakshmi Cement — J.B. Traders, Indore",
-    "enquiryName": "JK Lakshmi Cement",
-    "title": "JK Lakshmi — JK Lakshmi Cement in Indore | J.B. Traders",
-    "description": "JK Lakshmi grey cement is used for RCC work, brickwork and plastering, and is suited to both new construction and repair work across Indore.",
+    "tab": "grey-cement",
+    "image": "ultratech-cement.webp",
+    "alt": "UltraTech — J.B. Traders, Indore",
+    "enquiryName": "UltraTech",
+    "hasPage": true,
+    "card": {
+      "alt": "UltraTech Cement — J.B. Traders, Indore",
+      "enquiryName": "UltraTech Cement"
+    },
+    "title": "UltraTech — UltraTech Cement in Indore | J.B. Traders",
+    "description": "UltraTech OPC 53 Grade is used for RCC work — foundations, columns, beams and slabs — where higher early and final strength is needed. PPC offers better...",
     "paragraphs": [
-      "JK Lakshmi grey cement is used for RCC work, brickwork and plastering, and is suited to both new construction and repair work across Indore."
+      "UltraTech OPC 53 Grade is used for RCC work — foundations, columns, beams and slabs — where higher early and final strength is needed. PPC offers better workability and is commonly used for plastering, masonry and general construction.",
+      "Both grades are available for site delivery across Indore."
     ],
     "related": [
-      {
-        "slug": "ultratech-cement"
-      },
       {
         "slug": "jk-super-cement"
       },
@@ -189,19 +28,27 @@
       },
       {
         "slug": "nuvoco-cement"
+      },
+      {
+        "slug": "jk-lakshmi-cement"
       }
-    ]
+    ],
+    "backAnchor": "grey-cement"
   },
   {
     "slug": "jk-super-cement",
     "name": "JK Super",
     "subtitle": "Grey Cement",
     "category": "cement",
-    "categoryLabel": "Cement",
-    "backAnchor": "grey-cement",
-    "image": "/images/products/jk-super-cement.webp",
+    "tab": "grey-cement",
+    "image": "jk-super-cement.webp",
     "alt": "JK Super — J.B. Traders, Indore",
     "enquiryName": "JK Super",
+    "hasPage": true,
+    "card": {
+      "alt": "JK Super Cement — J.B. Traders, Indore",
+      "enquiryName": "JK Super Cement"
+    },
     "title": "JK Super — JK Cement in Indore | J.B. Traders",
     "description": "JK Super grey cement is suited to general construction, plastering and masonry work across residential and commercial sites in Indore.",
     "paragraphs": [
@@ -220,18 +67,182 @@
       {
         "slug": "jk-lakshmi-cement"
       }
-    ]
+    ],
+    "backAnchor": "grey-cement"
+  },
+  {
+    "slug": "wonder-cement",
+    "name": "Wonder Cement",
+    "subtitle": "Grey Cement",
+    "category": "cement",
+    "tab": "grey-cement",
+    "image": "wonder-cement.webp",
+    "alt": "Wonder Cement — J.B. Traders, Indore",
+    "enquiryName": "Wonder Cement",
+    "hasPage": true,
+    "title": "Wonder Cement — Wonder Cement in Indore | J.B. Traders",
+    "description": "Wonder Cement grey cement is used for RCC work, brickwork and plastering across residential and commercial construction sites in Indore.",
+    "paragraphs": [
+      "Wonder Cement grey cement is used for RCC work, brickwork and plastering across residential and commercial construction sites in Indore."
+    ],
+    "related": [
+      {
+        "slug": "ultratech-cement"
+      },
+      {
+        "slug": "jk-super-cement"
+      },
+      {
+        "slug": "nuvoco-cement"
+      },
+      {
+        "slug": "jk-lakshmi-cement"
+      }
+    ],
+    "backAnchor": "grey-cement"
+  },
+  {
+    "slug": "nuvoco-cement",
+    "name": "Nuvoco",
+    "subtitle": "Grey Cement",
+    "category": "cement",
+    "tab": "grey-cement",
+    "image": "nuvoco-cement.webp",
+    "alt": "Nuvoco Cement — J.B. Traders, Indore",
+    "enquiryName": "Nuvoco Cement",
+    "hasPage": true,
+    "title": "Nuvoco — Nuvoco Cement in Indore | J.B. Traders",
+    "description": "Nuvoco Duraguard grey cement is used for RCC work, plastering and masonry on residential and commercial construction sites in Indore.",
+    "paragraphs": [
+      "Nuvoco Duraguard grey cement is used for RCC work, plastering and masonry on residential and commercial construction sites in Indore."
+    ],
+    "related": [
+      {
+        "slug": "ultratech-cement"
+      },
+      {
+        "slug": "jk-super-cement"
+      },
+      {
+        "slug": "wonder-cement"
+      },
+      {
+        "slug": "jk-lakshmi-cement"
+      }
+    ],
+    "backAnchor": "grey-cement"
+  },
+  {
+    "slug": "jk-lakshmi-cement",
+    "name": "JK Lakshmi",
+    "subtitle": "Grey Cement",
+    "category": "cement",
+    "tab": "grey-cement",
+    "image": "jk-lakshmi-cement.webp",
+    "alt": "JK Lakshmi Cement — J.B. Traders, Indore",
+    "enquiryName": "JK Lakshmi Cement",
+    "hasPage": true,
+    "title": "JK Lakshmi — JK Lakshmi Cement in Indore | J.B. Traders",
+    "description": "JK Lakshmi grey cement is used for RCC work, brickwork and plastering, and is suited to both new construction and repair work across Indore.",
+    "paragraphs": [
+      "JK Lakshmi grey cement is used for RCC work, brickwork and plastering, and is suited to both new construction and repair work across Indore."
+    ],
+    "related": [
+      {
+        "slug": "ultratech-cement"
+      },
+      {
+        "slug": "jk-super-cement"
+      },
+      {
+        "slug": "wonder-cement"
+      },
+      {
+        "slug": "nuvoco-cement"
+      }
+    ],
+    "backAnchor": "grey-cement"
+  },
+  {
+    "slug": "mangalam-birla-uttam-cement",
+    "name": "Mangalam Birla Uttam",
+    "subtitle": "Grey Cement",
+    "category": "cement",
+    "tab": "grey-cement",
+    "image": "mangalam-birla-uttam.webp",
+    "alt": "Mangalam Birla Uttam Cement — J.B. Traders, Indore",
+    "enquiryName": "Mangalam Birla Uttam Cement",
+    "hasPage": true,
+    "title": "Mangalam Birla Uttam — Mangalam Birla Uttam Cement in Indore | J.B. Traders",
+    "description": "Mangalam Birla Uttam grey cement is used for general construction, plastering and masonry work across residential sites in Indore.",
+    "paragraphs": [
+      "Mangalam Birla Uttam grey cement is used for general construction, plastering and masonry work across residential sites in Indore."
+    ],
+    "related": [
+      {
+        "slug": "ultratech-cement"
+      },
+      {
+        "slug": "jk-super-cement"
+      },
+      {
+        "slug": "wonder-cement"
+      },
+      {
+        "slug": "nuvoco-cement"
+      }
+    ],
+    "backAnchor": "grey-cement"
+  },
+  {
+    "slug": "birla-white-cement",
+    "name": "Birla White",
+    "subtitle": "White Cement",
+    "category": "cement",
+    "tab": "white-cement",
+    "image": "birla-white-cement.webp",
+    "alt": "Birla White — J.B. Traders, Indore",
+    "enquiryName": "Birla White",
+    "hasPage": true,
+    "card": {
+      "alt": "Birla White Cement — J.B. Traders, Indore",
+      "enquiryName": "Birla White Cement"
+    },
+    "title": "Birla White — Birla Cement in Indore | J.B. Traders",
+    "description": "Birla White cement is used for finishing work, repair patches and marble or tile joint filling where a smooth, non-grey surface is needed.",
+    "paragraphs": [
+      "Birla White cement is used for finishing work, repair patches and marble or tile joint filling where a smooth, non-grey surface is needed."
+    ],
+    "related": [
+      {
+        "slug": "ultratech-cement"
+      },
+      {
+        "slug": "jk-super-cement"
+      },
+      {
+        "slug": "wonder-cement"
+      },
+      {
+        "slug": "jk-white-cement"
+      }
+    ],
+    "backAnchor": "white-cement"
   },
   {
     "slug": "jk-white-cement",
     "name": "JK White",
     "subtitle": "White Cement",
     "category": "cement",
-    "categoryLabel": "Cement",
-    "backAnchor": "white-cement",
-    "image": "/images/products/jk-white-cement.webp",
+    "tab": "white-cement",
+    "image": "jk-white-cement.webp",
     "alt": "JK White — J.B. Traders, Indore",
     "enquiryName": "JK White",
+    "hasPage": true,
+    "card": {
+      "alt": "JK White Cement — J.B. Traders, Indore",
+      "enquiryName": "JK White Cement"
+    },
     "title": "JK White — JK Cement in Indore | J.B. Traders",
     "description": "JK White cement is suited to wall finishing and decorative work where a clean white base is required.",
     "paragraphs": [
@@ -250,79 +261,54 @@
       {
         "slug": "birla-white-cement"
       }
-    ]
+    ],
+    "backAnchor": "white-cement"
   },
   {
-    "slug": "kerakoll-biofix",
-    "name": "Biofix",
-    "subtitle": "Kerakoll",
-    "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "adhesives",
-    "image": "/images/products/kerakoll-biofix.webp",
-    "alt": "Biofix — J.B. Traders, Indore",
-    "enquiryName": "Biofix",
-    "title": "Biofix — Kerakoll Tile Adhesive in Indore | J.B. Traders",
-    "description": "Biofix is an eco-friendly mineral adhesive for vitrified, porcelain and large-format tiles on internal floors and walls, with low VOC.",
+    "slug": "birla-wall-care-putty",
+    "name": "Birla Wall Care Putty",
+    "subtitle": "Wall Putty",
+    "category": "cement",
+    "tab": "wall-putty",
+    "image": "birla-wall-care-putty.webp",
+    "alt": "Birla Wall Care Putty — J.B. Traders, Indore",
+    "enquiryName": "Birla Wall Care Putty",
+    "hasPage": true,
+    "title": "Birla Wall Care Putty — Birla Cement in Indore | J.B. Traders",
+    "description": "Birla Wall Care Putty is applied before painting to fill minor cracks and even out the wall surface, indoors and outdoors, giving a smooth base coat for...",
     "paragraphs": [
-      "Biofix is an eco-friendly mineral adhesive for vitrified, porcelain and large-format tiles on internal floors and walls, with low VOC."
+      "Birla Wall Care Putty is applied before painting to fill minor cracks and even out the wall surface, indoors and outdoors, giving a smooth base coat for paint."
     ],
     "related": [
       {
-        "slug": "kerakoll-biotile"
+        "slug": "ultratech-cement"
       },
       {
-        "slug": "kerakoll-bioflex"
+        "slug": "jk-super-cement"
       },
       {
-        "slug": "kerakoll-h40-gel"
+        "slug": "wonder-cement"
       },
       {
-        "slug": "kerakoll-superflex"
+        "slug": "birla-white-cement"
       }
-    ]
-  },
-  {
-    "slug": "kerakoll-bioflex",
-    "name": "Bioflex",
-    "subtitle": "Kerakoll",
-    "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "adhesives",
-    "image": "/images/products/kerakoll-bioflex.webp",
-    "alt": "Bioflex — J.B. Traders, Indore",
-    "enquiryName": "Bioflex",
-    "title": "Bioflex — Kerakoll Tile Adhesive in Indore | J.B. Traders",
-    "description": "Bioflex is a flexible mineral adhesive for vitrified tiles and natural stone on floors and walls, containing mineral bentonite.",
-    "paragraphs": [
-      "Bioflex is a flexible mineral adhesive for vitrified tiles and natural stone on floors and walls, containing mineral bentonite.",
-      "Available in grey and white."
     ],
-    "related": [
-      {
-        "slug": "kerakoll-biotile"
-      },
-      {
-        "slug": "kerakoll-biofix"
-      },
-      {
-        "slug": "kerakoll-h40-gel"
-      },
-      {
-        "slug": "kerakoll-superflex"
-      }
-    ]
+    "backAnchor": "wall-putty"
   },
   {
     "slug": "kerakoll-biotile",
     "name": "Biotile",
     "subtitle": "Kerakoll",
     "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "adhesives",
-    "image": "/images/products/kerakoll-biotile.webp",
+    "tab": "adhesives",
+    "image": "kerakoll-biotile.webp",
     "alt": "Biotile — J.B. Traders, Indore",
     "enquiryName": "Biotile",
+    "hasPage": true,
+    "card": {
+      "alt": "Kerakoll Biotile — J.B. Traders, Indore",
+      "enquiryName": "Kerakoll Biotile"
+    },
     "title": "Biotile — Kerakoll Tile Adhesive in Indore | J.B. Traders",
     "description": "Biotile is an adhesive for fixing ceramic tiles indoor and outdoor, and vitrified tiles indoors.",
     "paragraphs": [
@@ -342,23 +328,63 @@
       {
         "slug": "kerakoll-superflex"
       }
-    ]
+    ],
+    "backAnchor": "adhesives"
   },
   {
-    "slug": "kerakoll-fugalite",
-    "name": "Fugalite",
+    "slug": "kerakoll-biofix",
+    "name": "Biofix",
     "subtitle": "Kerakoll",
     "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "grouts",
-    "image": "/images/products/kerakoll-fugalite.webp",
-    "alt": "Fugalite — J.B. Traders, Indore",
-    "enquiryName": "Fugalite",
-    "title": "Fugalite — Kerakoll Tile Adhesive in Indore | J.B. Traders",
-    "description": "Fugalite is an epoxy grout and adhesive for joints 0–10 mm — stain-proof, waterproof and easy to clean.",
+    "tab": "adhesives",
+    "image": "kerakoll-biofix.webp",
+    "alt": "Biofix — J.B. Traders, Indore",
+    "enquiryName": "Biofix",
+    "hasPage": true,
+    "card": {
+      "alt": "Kerakoll Biofix — J.B. Traders, Indore",
+      "enquiryName": "Kerakoll Biofix"
+    },
+    "title": "Biofix — Kerakoll Tile Adhesive in Indore | J.B. Traders",
+    "description": "Biofix is an eco-friendly mineral adhesive for vitrified, porcelain and large-format tiles on internal floors and walls, with low VOC.",
     "paragraphs": [
-      "Fugalite is an epoxy grout and adhesive for joints 0–10 mm — stain-proof, waterproof and easy to clean.",
-      "Available in 28 colours."
+      "Biofix is an eco-friendly mineral adhesive for vitrified, porcelain and large-format tiles on internal floors and walls, with low VOC."
+    ],
+    "related": [
+      {
+        "slug": "kerakoll-biotile"
+      },
+      {
+        "slug": "kerakoll-bioflex"
+      },
+      {
+        "slug": "kerakoll-h40-gel"
+      },
+      {
+        "slug": "kerakoll-superflex"
+      }
+    ],
+    "backAnchor": "adhesives"
+  },
+  {
+    "slug": "kerakoll-bioflex",
+    "name": "Bioflex",
+    "subtitle": "Kerakoll",
+    "category": "tile-adhesives",
+    "tab": "adhesives",
+    "image": "kerakoll-bioflex.webp",
+    "alt": "Bioflex — J.B. Traders, Indore",
+    "enquiryName": "Bioflex",
+    "hasPage": true,
+    "card": {
+      "alt": "Kerakoll Bioflex — J.B. Traders, Indore",
+      "enquiryName": "Kerakoll Bioflex"
+    },
+    "title": "Bioflex — Kerakoll Tile Adhesive in Indore | J.B. Traders",
+    "description": "Bioflex is a flexible mineral adhesive for vitrified tiles and natural stone on floors and walls, containing mineral bentonite.",
+    "paragraphs": [
+      "Bioflex is a flexible mineral adhesive for vitrified tiles and natural stone on floors and walls, containing mineral bentonite.",
+      "Available in grey and white."
     ],
     "related": [
       {
@@ -368,23 +394,28 @@
         "slug": "kerakoll-biofix"
       },
       {
-        "slug": "kerakoll-bioflex"
+        "slug": "kerakoll-h40-gel"
       },
       {
-        "slug": "kerakoll-h40-gel"
+        "slug": "kerakoll-superflex"
       }
-    ]
+    ],
+    "backAnchor": "adhesives"
   },
   {
     "slug": "kerakoll-h40-gel",
     "name": "H40 Gel",
     "subtitle": "Kerakoll",
     "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "adhesives",
-    "image": "/images/products/kerakoll-h40-gel.webp",
+    "tab": "adhesives",
+    "image": "kerakoll-h40-gel.webp",
     "alt": "H40 Gel — J.B. Traders, Indore",
     "enquiryName": "H40 Gel",
+    "hasPage": true,
+    "card": {
+      "alt": "Kerakoll H40 Gel — J.B. Traders, Indore",
+      "enquiryName": "Kerakoll H40 Gel"
+    },
     "title": "H40 Gel — Kerakoll Tile Adhesive in Indore | J.B. Traders",
     "description": "H40 Gel is a multipurpose structural gel-adhesive for ceramic, porcelain and natural stone of all types and formats.",
     "paragraphs": [
@@ -404,18 +435,23 @@
       {
         "slug": "kerakoll-superflex"
       }
-    ]
+    ],
+    "backAnchor": "adhesives"
   },
   {
     "slug": "kerakoll-superflex",
     "name": "Superflex",
     "subtitle": "Kerakoll",
     "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "adhesives",
-    "image": "/images/products/kerakoll-superflex.webp",
+    "tab": "adhesives",
+    "image": "kerakoll-superflex.webp",
     "alt": "Superflex — J.B. Traders, Indore",
     "enquiryName": "Superflex",
+    "hasPage": true,
+    "card": {
+      "alt": "Kerakoll Superflex — J.B. Traders, Indore",
+      "enquiryName": "Kerakoll Superflex"
+    },
     "title": "Superflex — Kerakoll Tile Adhesive in Indore | J.B. Traders",
     "description": "Superflex is a polyurethane adhesive with high elasticity and no vertical slip, for water-sensitive marble and natural stone on deformable substrates.",
     "paragraphs": [
@@ -434,53 +470,27 @@
       {
         "slug": "kerakoll-h40-gel"
       }
-    ]
-  },
-  {
-    "slug": "mangalam-birla-uttam-cement",
-    "name": "Mangalam Birla Uttam",
-    "subtitle": "Grey Cement",
-    "category": "cement",
-    "categoryLabel": "Cement",
-    "backAnchor": "grey-cement",
-    "image": "/images/products/mangalam-birla-uttam.webp",
-    "alt": "Mangalam Birla Uttam Cement — J.B. Traders, Indore",
-    "enquiryName": "Mangalam Birla Uttam Cement",
-    "title": "Mangalam Birla Uttam — Mangalam Birla Uttam Cement in Indore | J.B. Traders",
-    "description": "Mangalam Birla Uttam grey cement is used for general construction, plastering and masonry work across residential sites in Indore.",
-    "paragraphs": [
-      "Mangalam Birla Uttam grey cement is used for general construction, plastering and masonry work across residential sites in Indore."
     ],
-    "related": [
-      {
-        "slug": "ultratech-cement"
-      },
-      {
-        "slug": "jk-super-cement"
-      },
-      {
-        "slug": "wonder-cement"
-      },
-      {
-        "slug": "nuvoco-cement"
-      }
-    ]
+    "backAnchor": "adhesives"
   },
   {
-    "slug": "mapei-tile-adhesive",
-    "name": "Mapei Tile Adhesive",
-    "subtitle": "Mapei",
+    "slug": "roff-tile-adhesive",
+    "name": "Roff NCA",
+    "subtitle": "Tile Adhesive (T01)",
     "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "adhesives",
-    "image": "/images/products/mapei-tile-adhesive.webp",
-    "alt": "Mapei Tile Adhesive — J.B. Traders, Indore",
-    "enquiryName": "Mapei Tile Adhesive",
-    "title": "Mapei Tile Adhesive — Mapei Tile Adhesive in Indore | J.B. Traders",
-    "description": "Mapei tile adhesive is used for fixing ceramic and vitrified tiles on floors and walls.",
+    "tab": "adhesives",
+    "image": "roff-tile-adhesive.webp",
+    "alt": "Roff NCA — J.B. Traders, Indore",
+    "enquiryName": "Roff NCA Tile Adhesive",
+    "hasPage": true,
+    "card": {
+      "subtitle": "Roff"
+    },
+    "title": "Roff NCA — Roff Tile Adhesive in Indore | J.B. Traders",
+    "description": "Roff NCA is a cement-based tile adhesive used for fixing ceramic and vitrified tiles in new construction, giving a stronger bond than traditional cement-sand mortar.",
     "paragraphs": [
-      "Mapei tile adhesive is used for fixing ceramic and vitrified tiles on floors and walls.",
-      "Contact us to confirm the specific Mapei grade in stock for your tile type."
+      "Roff NCA (New Construction Tile Adhesive) is a cement-based adhesive used for fixing ceramic and vitrified tiles on floors and walls in new construction, giving a stronger and more reliable bond than traditional cement-sand mortar.",
+      "Contact us to confirm current stock."
     ],
     "related": [
       {
@@ -495,78 +505,22 @@
       {
         "slug": "kerakoll-h40-gel"
       }
-    ]
-  },
-  {
-    "slug": "nuvoco-cement",
-    "name": "Nuvoco",
-    "subtitle": "Grey Cement",
-    "category": "cement",
-    "categoryLabel": "Cement",
-    "backAnchor": "grey-cement",
-    "image": "/images/products/nuvoco-cement.webp",
-    "alt": "Nuvoco Cement — J.B. Traders, Indore",
-    "enquiryName": "Nuvoco Cement",
-    "title": "Nuvoco — Nuvoco Cement in Indore | J.B. Traders",
-    "description": "Nuvoco Duraguard grey cement is used for RCC work, plastering and masonry on residential and commercial construction sites in Indore.",
-    "paragraphs": [
-      "Nuvoco Duraguard grey cement is used for RCC work, plastering and masonry on residential and commercial construction sites in Indore."
     ],
-    "related": [
-      {
-        "slug": "ultratech-cement"
-      },
-      {
-        "slug": "jk-super-cement"
-      },
-      {
-        "slug": "wonder-cement"
-      },
-      {
-        "slug": "jk-lakshmi-cement"
-      }
-    ]
-  },
-  {
-    "slug": "roff-cera-clean",
-    "name": "Roff Cera Clean",
-    "subtitle": "Roff",
-    "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "cleaners-other",
-    "image": "/images/products/roff-cera-clean.webp",
-    "alt": "Roff Cera Clean — J.B. Traders, Indore",
-    "enquiryName": "Roff Cera Clean",
-    "title": "Roff Cera Clean — Roff Tile Adhesive in Indore | J.B. Traders",
-    "description": "Roff Cera Clean is a cleaner for removing cement stains and grout haze from tiles and ceramic surfaces after laying.",
-    "paragraphs": [
-      "Roff Cera Clean is a cleaner for removing cement stains and grout haze from tiles and ceramic surfaces after laying."
-    ],
-    "related": [
-      {
-        "slug": "kerakoll-biotile"
-      },
-      {
-        "slug": "kerakoll-biofix"
-      },
-      {
-        "slug": "kerakoll-bioflex"
-      },
-      {
-        "slug": "kerakoll-h40-gel"
-      }
-    ]
+    "backAnchor": "adhesives"
   },
   {
     "slug": "roff-non-skid-adhesive",
     "name": "Roff NSA",
     "subtitle": "Non-Skid Adhesive (T02)",
     "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "adhesives",
-    "image": "/images/products/roff-non-skid-adhesive.webp",
+    "tab": "adhesives",
+    "image": "roff-non-skid-adhesive.webp",
     "alt": "Roff NSA — J.B. Traders, Indore",
     "enquiryName": "Roff NSA Non-Skid Adhesive",
+    "hasPage": true,
+    "card": {
+      "subtitle": "Roff"
+    },
     "title": "Roff NSA — Roff Non-Skid Adhesive in Indore | J.B. Traders",
     "description": "Roff NSA (Non-Skid Adhesive) is used for fixing vitrified tiles and natural stones of any size, offering high bond strength and extended open time for tile-on-tile application.",
     "paragraphs": [
@@ -587,23 +541,24 @@
         "slug": "roff-tile-adhesive",
         "subtitle": "Roff"
       }
-    ]
+    ],
+    "backAnchor": "adhesives"
   },
   {
-    "slug": "roff-tile-adhesive",
-    "name": "Roff NCA",
-    "subtitle": "Tile Adhesive (T01)",
+    "slug": "mapei-tile-adhesive",
+    "name": "Mapei Tile Adhesive",
+    "subtitle": "Mapei",
     "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "adhesives",
-    "image": "/images/products/roff-tile-adhesive.webp",
-    "alt": "Roff NCA — J.B. Traders, Indore",
-    "enquiryName": "Roff NCA Tile Adhesive",
-    "title": "Roff NCA — Roff Tile Adhesive in Indore | J.B. Traders",
-    "description": "Roff NCA is a cement-based tile adhesive used for fixing ceramic and vitrified tiles in new construction, giving a stronger bond than traditional cement-sand mortar.",
+    "tab": "adhesives",
+    "image": "mapei-tile-adhesive.webp",
+    "alt": "Mapei Tile Adhesive — J.B. Traders, Indore",
+    "enquiryName": "Mapei Tile Adhesive",
+    "hasPage": true,
+    "title": "Mapei Tile Adhesive — Mapei Tile Adhesive in Indore | J.B. Traders",
+    "description": "Mapei tile adhesive is used for fixing ceramic and vitrified tiles on floors and walls.",
     "paragraphs": [
-      "Roff NCA (New Construction Tile Adhesive) is a cement-based adhesive used for fixing ceramic and vitrified tiles on floors and walls in new construction, giving a stronger and more reliable bond than traditional cement-sand mortar.",
-      "Contact us to confirm current stock."
+      "Mapei tile adhesive is used for fixing ceramic and vitrified tiles on floors and walls.",
+      "Contact us to confirm the specific Mapei grade in stock for your tile type."
     ],
     "related": [
       {
@@ -618,18 +573,19 @@
       {
         "slug": "kerakoll-h40-gel"
       }
-    ]
+    ],
+    "backAnchor": "adhesives"
   },
   {
     "slug": "tenax-marble-glue",
     "name": "Tenax Marble Glue",
     "subtitle": "Tenax",
     "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "adhesives",
-    "image": "/images/products/tenax-marble-glue.webp",
+    "tab": "adhesives",
+    "image": "tenax-marble-glue.webp",
     "alt": "Tenax Marble Glue — J.B. Traders, Indore",
     "enquiryName": "Tenax Marble Glue",
+    "hasPage": true,
     "title": "Tenax Marble Glue — Tenax Tile Adhesive in Indore | J.B. Traders",
     "description": "Tenax Marble Glue is used for bonding and repairing marble, granite and natural stone.",
     "paragraphs": [
@@ -648,18 +604,92 @@
       {
         "slug": "kerakoll-h40-gel"
       }
-    ]
+    ],
+    "backAnchor": "adhesives"
+  },
+  {
+    "slug": "kerakoll-fugalite",
+    "name": "Fugalite",
+    "subtitle": "Kerakoll",
+    "category": "tile-adhesives",
+    "tab": "grouts",
+    "image": "kerakoll-fugalite.webp",
+    "alt": "Fugalite — J.B. Traders, Indore",
+    "enquiryName": "Fugalite",
+    "hasPage": true,
+    "card": {
+      "alt": "Kerakoll Fugalite — J.B. Traders, Indore",
+      "enquiryName": "Kerakoll Fugalite"
+    },
+    "title": "Fugalite — Kerakoll Tile Adhesive in Indore | J.B. Traders",
+    "description": "Fugalite is an epoxy grout and adhesive for joints 0–10 mm — stain-proof, waterproof and easy to clean.",
+    "paragraphs": [
+      "Fugalite is an epoxy grout and adhesive for joints 0–10 mm — stain-proof, waterproof and easy to clean.",
+      "Available in 28 colours."
+    ],
+    "related": [
+      {
+        "slug": "kerakoll-biotile"
+      },
+      {
+        "slug": "kerakoll-biofix"
+      },
+      {
+        "slug": "kerakoll-bioflex"
+      },
+      {
+        "slug": "kerakoll-h40-gel"
+      }
+    ],
+    "backAnchor": "grouts"
+  },
+  {
+    "slug": "epoxy-grout",
+    "name": "Epoxy Grout",
+    "subtitle": "Grouts & Fillers",
+    "category": "tile-adhesives",
+    "tab": "grouts",
+    "image": "epoxy-grout.webp",
+    "alt": "Epoxy Grout — J.B. Traders, Indore",
+    "enquiryName": "Epoxy Grout",
+    "hasPage": true,
+    "card": {
+      "subtitle": "MYK Laticrete"
+    },
+    "title": "Epoxy Grout — Tile Adhesive in Indore | J.B. Traders",
+    "description": "Epoxy grout seals the gaps between tiles once laid, resisting staining and water penetration better than standard cement grout — important in kitchens,...",
+    "paragraphs": [
+      "Epoxy grout seals the gaps between tiles once laid, resisting staining and water penetration better than standard cement grout — important in kitchens, bathrooms and high-traffic flooring."
+    ],
+    "related": [
+      {
+        "slug": "kerakoll-biotile"
+      },
+      {
+        "slug": "kerakoll-biofix"
+      },
+      {
+        "slug": "kerakoll-bioflex"
+      },
+      {
+        "slug": "kerakoll-h40-gel"
+      }
+    ],
+    "backAnchor": "grouts"
   },
   {
     "slug": "tile-joint-filler",
     "name": "Tile Joint Filler",
     "subtitle": "Grouts & Fillers",
     "category": "tile-adhesives",
-    "categoryLabel": "Tile Adhesives",
-    "backAnchor": "grouts",
-    "image": "/images/products/tile-joint-filler.webp",
+    "tab": "grouts",
+    "image": "tile-joint-filler.webp",
     "alt": "Tile Joint Filler — J.B. Traders, Indore",
     "enquiryName": "Tile Joint Filler",
+    "hasPage": true,
+    "card": {
+      "subtitle": "MYK Laticrete"
+    },
     "title": "Tile Joint Filler — Tile Adhesive in Indore | J.B. Traders",
     "description": "Tile joint filler is used to seal gaps between tiles and fill minor surface imperfections, including epoxy fillers for marble and granite surfaces.",
     "paragraphs": [
@@ -678,49 +708,190 @@
       {
         "slug": "kerakoll-h40-gel"
       }
-    ]
+    ],
+    "backAnchor": "grouts"
   },
   {
-    "slug": "ultratech-cement",
-    "name": "UltraTech",
-    "subtitle": "Grey Cement",
-    "category": "cement",
-    "categoryLabel": "Cement",
-    "backAnchor": "grey-cement",
-    "image": "/images/products/ultratech-cement.webp",
-    "alt": "UltraTech — J.B. Traders, Indore",
-    "enquiryName": "UltraTech",
-    "title": "UltraTech — UltraTech Cement in Indore | J.B. Traders",
-    "description": "UltraTech OPC 53 Grade is used for RCC work — foundations, columns, beams and slabs — where higher early and final strength is needed. PPC offers better...",
+    "slug": "roff-cera-clean",
+    "name": "Roff Cera Clean",
+    "subtitle": "Roff",
+    "category": "tile-adhesives",
+    "tab": "cleaners-other",
+    "image": "roff-cera-clean.webp",
+    "alt": "Roff Cera Clean — J.B. Traders, Indore",
+    "enquiryName": "Roff Cera Clean",
+    "hasPage": true,
+    "title": "Roff Cera Clean — Roff Tile Adhesive in Indore | J.B. Traders",
+    "description": "Roff Cera Clean is a cleaner for removing cement stains and grout haze from tiles and ceramic surfaces after laying.",
     "paragraphs": [
-      "UltraTech OPC 53 Grade is used for RCC work — foundations, columns, beams and slabs — where higher early and final strength is needed. PPC offers better workability and is commonly used for plastering, masonry and general construction.",
-      "Both grades are available for site delivery across Indore."
+      "Roff Cera Clean is a cleaner for removing cement stains and grout haze from tiles and ceramic surfaces after laying."
     ],
     "related": [
       {
-        "slug": "jk-super-cement"
+        "slug": "kerakoll-biotile"
       },
       {
-        "slug": "wonder-cement"
+        "slug": "kerakoll-biofix"
       },
       {
-        "slug": "nuvoco-cement"
+        "slug": "kerakoll-bioflex"
       },
       {
-        "slug": "jk-lakshmi-cement"
+        "slug": "kerakoll-h40-gel"
       }
-    ]
+    ],
+    "backAnchor": "cleaners-other"
+  },
+  {
+    "slug": "araldite",
+    "name": "Araldite",
+    "subtitle": "Epoxy Resin & Hardener",
+    "category": "tile-adhesives",
+    "tab": "cleaners-other",
+    "image": "araldite.webp",
+    "alt": "Araldite — J.B. Traders, Indore",
+    "enquiryName": "Araldite",
+    "hasPage": true,
+    "card": {
+      "subtitle": "Araldite",
+      "alt": "Araldite Epoxy Resin — J.B. Traders, Indore"
+    },
+    "title": "Araldite — Araldite Tile Adhesive in Indore | J.B. Traders",
+    "description": "Araldite is a two-part epoxy resin and hardener for strong, waterproof bonding of metal, wood, ceramic, glass and stone.",
+    "paragraphs": [
+      "Araldite is a two-part epoxy resin and hardener for strong, waterproof bonding of metal, wood, ceramic, glass and stone."
+    ],
+    "related": [
+      {
+        "slug": "kerakoll-biotile"
+      },
+      {
+        "slug": "kerakoll-biofix"
+      },
+      {
+        "slug": "kerakoll-bioflex"
+      },
+      {
+        "slug": "kerakoll-h40-gel"
+      }
+    ],
+    "backAnchor": "cleaners-other"
+  },
+  {
+    "slug": "reti",
+    "name": "Reti (Sand)",
+    "subtitle": "Supplied by trolley or truck load",
+    "category": "sand-bricks-aggregates",
+    "tab": "reti",
+    "image": "reti.webp",
+    "alt": "Reti (Sand) — J.B. Traders, Indore",
+    "enquiryName": "Reti (Sand)",
+    "hasPage": false,
+    "showCall": true
+  },
+  {
+    "slug": "gitti",
+    "name": "Gitti (Stone Aggregate)",
+    "subtitle": "Available in multiple sizes",
+    "category": "sand-bricks-aggregates",
+    "tab": "gitti",
+    "image": "gitti.webp",
+    "alt": "Gitti (Stone Aggregate) — J.B. Traders, Indore",
+    "enquiryName": "Gitti (Stone Aggregate)",
+    "hasPage": false,
+    "showCall": true
+  },
+  {
+    "slug": "churi",
+    "name": "Churi (Stone Dust)",
+    "subtitle": "Supplied by trolley or truck load",
+    "category": "sand-bricks-aggregates",
+    "tab": "churi",
+    "image": "churi.webp",
+    "alt": "Churi (Stone Dust) — J.B. Traders, Indore",
+    "enquiryName": "Churi (Stone Dust)",
+    "hasPage": false,
+    "showCall": true
+  },
+  {
+    "slug": "laal-eent",
+    "name": "Laal Eent (Gutka)",
+    "subtitle": "8 × 4 × 4 inches — load-bearing and main walls",
+    "category": "sand-bricks-aggregates",
+    "tab": "laal-eent",
+    "image": "laal-eent.webp",
+    "alt": "Laal Eent (Gutka) — J.B. Traders, Indore",
+    "enquiryName": "Laal Eent (Gutka)",
+    "hasPage": false,
+    "showCall": true
+  },
+  {
+    "slug": "patli-eent",
+    "name": "Patli Eent",
+    "subtitle": "9 × 4.5 × 1.5 inches — partition and boundary walls",
+    "category": "sand-bricks-aggregates",
+    "tab": "patli-eent",
+    "image": "patli-eent.webp",
+    "alt": "Patli Eent — J.B. Traders, Indore",
+    "enquiryName": "Patli Eent",
+    "hasPage": false,
+    "showCall": true
+  },
+  {
+    "slug": "dr-fixit-urp",
+    "name": "Dr. Fixit URP",
+    "subtitle": "Dr. Fixit",
+    "category": "waterproofing",
+    "tab": "waterproofing",
+    "image": "dr-fixit-urp.webp",
+    "alt": "Dr. Fixit URP — J.B. Traders, Indore",
+    "enquiryName": "Dr. Fixit URP",
+    "hasPage": true,
+    "title": "Dr. Fixit URP — Dr. Fixit Waterproofing in Indore | J.B. Traders",
+    "description": "Dr. Fixit URP is a waterproofing compound applied on roofs, terraces and external walls to stop water seepage before it starts.",
+    "paragraphs": [
+      "Dr. Fixit URP is a waterproofing compound applied on roofs, terraces and external walls to stop water seepage before it starts.",
+      "Suited to both new construction and repair of existing seepage problems."
+    ],
+    "related": [
+      {
+        "slug": "dr-fixit-lw-plus"
+      }
+    ],
+    "backAnchor": "dr-fixit"
+  },
+  {
+    "slug": "dr-fixit-lw-plus",
+    "name": "Dr. Fixit LW+",
+    "subtitle": "Dr. Fixit",
+    "category": "waterproofing",
+    "tab": "waterproofing",
+    "image": "dr-fixit-lw-plus.webp",
+    "alt": "Dr. Fixit LW+ — J.B. Traders, Indore",
+    "enquiryName": "Dr. Fixit LW+",
+    "hasPage": true,
+    "title": "Dr. Fixit LW+ — Dr. Fixit Waterproofing in Indore | J.B. Traders",
+    "description": "Dr. Fixit LW+ is a liquid waterproofing compound mixed into plaster and concrete to prevent water seepage on roofs, terraces and bathrooms.",
+    "paragraphs": [
+      "Dr. Fixit LW+ is a liquid waterproofing compound mixed into plaster and concrete to prevent water seepage on roofs, terraces and bathrooms."
+    ],
+    "related": [
+      {
+        "slug": "dr-fixit-urp"
+      }
+    ],
+    "backAnchor": "dr-fixit"
   },
   {
     "slug": "ultratech-waterproofing-tape",
     "name": "UltraTech Super Adhesive Tape",
     "subtitle": "UltraTech",
     "category": "construction-accessories",
-    "categoryLabel": "Construction Accessories",
-    "backAnchor": null,
-    "image": "/images/products/ultratech-waterproofing-tape.webp",
+    "tab": "adhesive-tape",
+    "image": "ultratech-waterproofing-tape.webp",
     "alt": "UltraTech Super Adhesive Tape — J.B. Traders, Indore",
     "enquiryName": "UltraTech Super Adhesive Tape",
+    "hasPage": true,
     "title": "UltraTech Super Adhesive Tape — Construction Accessories in Indore | J.B. Traders",
     "description": "UltraTech Super Adhesive Tape is a BOPP-based adhesive film used for sealing joints between formwork panels, covering plywood edges, and preventing cement slurry leakage during concrete pouring.",
     "paragraphs": [
@@ -729,41 +900,24 @@
     "related": [
       {
         "href": "/construction-accessories.html#cover-blocks",
-        "image": "/images/products/cover-blocks.webp",
+        "image": "cover-blocks.webp",
         "alt": "Concrete Cover Blocks — J.B. Traders, Indore",
         "name": "Concrete Cover Blocks",
         "subtitle": "Construction Accessories"
       }
-    ]
+    ],
+    "backAnchor": null
   },
   {
-    "slug": "wonder-cement",
-    "name": "Wonder Cement",
-    "subtitle": "Grey Cement",
-    "category": "cement",
-    "categoryLabel": "Cement",
-    "backAnchor": "grey-cement",
-    "image": "/images/products/wonder-cement.webp",
-    "alt": "Wonder Cement — J.B. Traders, Indore",
-    "enquiryName": "Wonder Cement",
-    "title": "Wonder Cement — Wonder Cement in Indore | J.B. Traders",
-    "description": "Wonder Cement grey cement is used for RCC work, brickwork and plastering across residential and commercial construction sites in Indore.",
-    "paragraphs": [
-      "Wonder Cement grey cement is used for RCC work, brickwork and plastering across residential and commercial construction sites in Indore."
-    ],
-    "related": [
-      {
-        "slug": "ultratech-cement"
-      },
-      {
-        "slug": "jk-super-cement"
-      },
-      {
-        "slug": "nuvoco-cement"
-      },
-      {
-        "slug": "jk-lakshmi-cement"
-      }
-    ]
+    "slug": "cover-blocks",
+    "name": "Concrete Cover Blocks",
+    "subtitle": "For rebar spacing in RCC slabs, columns and beams",
+    "category": "construction-accessories",
+    "tab": "cover-blocks",
+    "image": "cover-blocks.webp",
+    "alt": "Concrete Cover Blocks — J.B. Traders, Indore",
+    "enquiryName": "Concrete Cover Blocks",
+    "hasPage": false,
+    "showCall": false
   }
 ]

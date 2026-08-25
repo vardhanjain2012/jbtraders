@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: products
+  data: productPages
   size: 1
   alias: product
 permalink: "products/{{ product.slug }}.html"
@@ -14,21 +14,21 @@ eleventyComputed:
     <div class="max-w-4xl mx-auto px-4 pt-6">
         <a href="/{{ product.category }}.html{% if product.backAnchor %}#{{ product.backAnchor }}{% endif %}"
             class="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 hover:text-blue-800 hover:underline">
-            &larr; Back to {{ product.categoryLabel }}
+            &larr; Back to {{ categories[product.category].label }}
         </a>
     </div>
 
     <div class="max-w-4xl mx-auto px-4 pt-2 text-sm text-gray-500">
         <a href="/" class="hover:underline hover:text-blue-700">Home</a>
         <span class="mx-1">&rsaquo;</span>
-        <a href="/{{ product.category }}.html" class="hover:underline hover:text-blue-700">{{ product.categoryLabel }}</a>
+        <a href="/{{ product.category }}.html" class="hover:underline hover:text-blue-700">{{ categories[product.category].label }}</a>
         <span class="mx-1">&rsaquo;</span>
         <span class="text-gray-700">{{ product.name }}</span>
     </div>
 
     <section class="py-8 max-w-4xl mx-auto px-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-gray-200">
-            <img src="{{ product.image }}" alt="{{ product.alt }}" loading="lazy" width="400"
+            <img src="/images/products/{{ product.image }}" alt="{{ product.alt }}" loading="lazy" width="400"
                 height="400" class="w-full aspect-square object-cover bg-gray-100 rounded-lg">
             <div class="flex flex-col">
                 <h1 class="text-3xl font-extrabold text-gray-900 mb-1">{{ product.name }}</h1>
@@ -64,7 +64,7 @@ eleventyComputed:
 {%- set href = ("/products/" + r.slug + ".html") if entry.slug else entry.href %}
             <a href="{{ href }}"
                 class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col hover:shadow-md hover:border-blue-200 transition">
-                <img src="{{ r.image }}" alt="{{ r.alt }}" loading="lazy" width="400"
+                <img src="/images/products/{{ r.image }}" alt="{{ r.alt }}" loading="lazy" width="400"
                     height="400" class="w-full aspect-square object-cover bg-gray-100">
                 <div class="p-3">
                     <h3 class="text-sm font-bold text-blue-900">{{ r.name }}</h3>

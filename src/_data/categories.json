@@ -1,0 +1,92 @@
+{
+  "cement": {
+    "label": "Cement",
+    "ariaLabel": "Cement categories",
+    "tabs": [
+      {
+        "key": "grey-cement",
+        "label": "Grey Cement",
+        "note": "All major cement brands available. Tell us what you need and we'll arrange it."
+      },
+      {
+        "key": "white-cement",
+        "label": "White Cement"
+      },
+      {
+        "key": "wall-putty",
+        "label": "Wall Putty"
+      }
+    ]
+  },
+  "tile-adhesives": {
+    "label": "Tile Adhesives",
+    "ariaLabel": "Tile adhesive categories",
+    "tabs": [
+      {
+        "key": "adhesives",
+        "label": "Adhesives"
+      },
+      {
+        "key": "grouts",
+        "label": "Grouts & Fillers",
+        "anchorId": "grouts"
+      },
+      {
+        "key": "cleaners-other",
+        "label": "Cleaners & Other"
+      }
+    ]
+  },
+  "sand-bricks-aggregates": {
+    "label": "Sand, Bricks & Aggregates",
+    "ariaLabel": "Sand, brick and aggregate categories",
+    "tabs": [
+      {
+        "key": "reti",
+        "label": "Reti"
+      },
+      {
+        "key": "gitti",
+        "label": "Gitti"
+      },
+      {
+        "key": "churi",
+        "label": "Churi"
+      },
+      {
+        "key": "laal-eent",
+        "label": "Laal Eent (Gutka)",
+        "buttonLabel": "Laal Eent"
+      },
+      {
+        "key": "patli-eent",
+        "label": "Patli Eent"
+      }
+    ]
+  },
+  "waterproofing": {
+    "label": "Waterproofing",
+    "ariaLabel": "Waterproofing categories",
+    "tabs": [
+      {
+        "key": "waterproofing",
+        "label": "Waterproofing Products"
+      }
+    ]
+  },
+  "construction-accessories": {
+    "label": "Construction Accessories",
+    "ariaLabel": "Construction accessory categories",
+    "tabs": [
+      {
+        "key": "adhesive-tape",
+        "label": "Adhesive Tape"
+      },
+      {
+        "key": "cover-blocks",
+        "label": "Cover Blocks",
+        "comment": "TODO: split cover block thicknesses (20mm/25mm/40mm) into separate cards once confirmed"
+      }
+    ]
+  }
+}
