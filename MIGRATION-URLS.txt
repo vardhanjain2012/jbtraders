@@ -44,7 +44,6 @@ waterproofing.html
 ## Static assets
 CNAME
 apple-touch-icon.png
-config.js
 favicon-192.png
 favicon.ico
 images/categories/cement.webp
@@ -88,3 +87,7 @@ images/products/ultratech-waterproofing-tape.webp
 images/products/wonder-cement.webp
 robots.txt
 sitemap.xml
+
+# Removed in Phase 4 (deliberate): config.js — its only consumer was the
+# index.html enquiry form; the WhatsApp number is now inlined at build time
+# from _data/site.json. Never a page URL, so no SEO impact.

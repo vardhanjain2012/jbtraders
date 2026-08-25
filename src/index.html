@@ -109,8 +109,7 @@ bodyInclude: "enquiry-form.njk"
     <section class="py-4 max-w-6xl mx-auto px-4">
         <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
             <h2 class="text-2xl font-bold mb-4 text-blue-900">Delivery Areas</h2>
-            <p class="text-gray-700">We deliver building materials to homes and construction sites across all
-                areas of Indore, plus Dewas, Sanwer, Rau, Pithampur and Dr. Ambedkar Nagar (Mhow).</p>
+            <p class="text-gray-700">We deliver building materials to homes and construction sites across {{ site.deliveryAreas }}.</p>
         </div>
     </section>
 
@@ -171,11 +170,11 @@ bodyInclude: "enquiry-form.njk"
                     <span class="text-xl">📍</span>
                     <span>
                         <strong>Address:</strong><br>
-                        <address class="not-italic">D-4, Nemi Nagar, Kesharbagh Road, Indore, Madhya Pradesh,
-                            452009</address>
+                        <address class="not-italic">{{ site.street }}, {{ site.city }}, {{ site.state }},
+                            {{ site.postalCode }}</address>
                     </span>
                 </p>
-                <a href="https://maps.app.goo.gl/5JV4TNsF5o3XJsbU6" target="_blank"
+                <a href="{{ site.mapsUrl }}" target="_blank"
                     class="inline-block mt-2 text-blue-600 hover:text-blue-800 underline font-medium">
                     View on Google Maps &rarr;
                 </a>
@@ -184,19 +183,19 @@ bodyInclude: "enquiry-form.njk"
 
                 <p class="flex items-center gap-3">
                     <span class="text-xl">📞</span>
-                    <strong>Phone (Calls):</strong> <a href="tel:+919826077521"
-                        class="text-blue-600 hover:underline">+91 98260 77521</a>
+                    <strong>Phone (Calls):</strong> <a href="tel:{{ site.phone }}"
+                        class="text-blue-600 hover:underline">{{ site.phoneDisplay }}</a>
                 </p>
                 <p class="flex items-center gap-3">
                     <span class="text-xl">💬</span>
-                    <strong>WhatsApp:</strong> <a href="https://wa.me/919039677521" target="_blank"
-                        class="text-blue-600 hover:underline">+91 90396 77521</a>
+                    <strong>WhatsApp:</strong> <a href="https://wa.me/{{ site.whatsapp }}" target="_blank"
+                        class="text-blue-600 hover:underline">{{ site.whatsappDisplay }}</a>
                 </p>
                 <p class="flex items-start gap-3">
                     <span class="text-xl">⏰</span>
                     <span>
                         <strong>Hours:</strong><br>
-                        Mon - Sat: 9:00 AM - 7:00 PM <br> Sunday: 9:00 AM - 1:00 PM
+                        {{ site.hoursWeekday }} <br> {{ site.hoursSunday }}
                     </span>
                 </p>
             </div>

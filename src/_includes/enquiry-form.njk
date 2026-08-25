@@ -1,5 +1,3 @@
-    <!-- config.js holds the WhatsApp number used by the enquiry form below -->
-    <script src="config.js"></script>
 
     <script>
         // ==========================================
@@ -38,6 +36,6 @@
             // URI Encode the entire string to safely pass it in the URL
             const finalEncodedMessage = encodeURIComponent(messageText);
 
-            window.open(`https://wa.me/${config.whatsappNumber}?text=${finalEncodedMessage}`, '_blank');
+            window.open(`https://wa.me/{{ site.whatsapp }}?text=${finalEncodedMessage}`, '_blank');
         }
     </script>

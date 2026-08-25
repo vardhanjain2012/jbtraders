@@ -24,10 +24,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/favicon-192.png");
   eleventyConfig.addPassthroughCopy("src/apple-touch-icon.png");
-  eleventyConfig.addPassthroughCopy("src/config.js");
 
   return {
-    // `js` is deliberately excluded: config.js is a browser asset, not a template.
+    // `js` excluded so stray browser scripts are never treated as templates.
     templateFormats: ["html", "njk", "md"],
     dir: { input: "src", output: "_site", includes: "_includes", data: "_data" },
     htmlTemplateEngine: "njk",
