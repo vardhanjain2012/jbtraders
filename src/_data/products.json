@@ -2,7 +2,7 @@
   {
     "slug": "araldite",
     "name": "Araldite",
-    "brand": "Epoxy Resin & Hardener",
+    "subtitle": "Epoxy Resin & Hardener",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "cleaners-other",
@@ -32,7 +32,7 @@
   {
     "slug": "birla-wall-care-putty",
     "name": "Birla Wall Care Putty",
-    "brand": "Wall Putty",
+    "subtitle": "Wall Putty",
     "category": "cement",
     "categoryLabel": "Cement",
     "backAnchor": "wall-putty",
@@ -62,7 +62,7 @@
   {
     "slug": "birla-white-cement",
     "name": "Birla White",
-    "brand": "White Cement",
+    "subtitle": "White Cement",
     "category": "cement",
     "categoryLabel": "Cement",
     "backAnchor": "white-cement",
@@ -92,7 +92,7 @@
   {
     "slug": "dr-fixit-lw-plus",
     "name": "Dr. Fixit LW+",
-    "brand": "Dr. Fixit",
+    "subtitle": "Dr. Fixit",
     "category": "waterproofing",
     "categoryLabel": "Waterproofing",
     "backAnchor": "dr-fixit",
@@ -113,7 +113,7 @@
   {
     "slug": "dr-fixit-urp",
     "name": "Dr. Fixit URP",
-    "brand": "Dr. Fixit",
+    "subtitle": "Dr. Fixit",
     "category": "waterproofing",
     "categoryLabel": "Waterproofing",
     "backAnchor": "dr-fixit",
@@ -135,7 +135,7 @@
   {
     "slug": "epoxy-grout",
     "name": "Epoxy Grout",
-    "brand": "Grouts & Fillers",
+    "subtitle": "Grouts & Fillers",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "grouts",
@@ -165,7 +165,7 @@
   {
     "slug": "jk-lakshmi-cement",
     "name": "JK Lakshmi",
-    "brand": "Grey Cement",
+    "subtitle": "Grey Cement",
     "category": "cement",
     "categoryLabel": "Cement",
     "backAnchor": "grey-cement",
@@ -195,7 +195,7 @@
   {
     "slug": "jk-super-cement",
     "name": "JK Super",
-    "brand": "Grey Cement",
+    "subtitle": "Grey Cement",
     "category": "cement",
     "categoryLabel": "Cement",
     "backAnchor": "grey-cement",
@@ -225,7 +225,7 @@
   {
     "slug": "jk-white-cement",
     "name": "JK White",
-    "brand": "White Cement",
+    "subtitle": "White Cement",
     "category": "cement",
     "categoryLabel": "Cement",
     "backAnchor": "white-cement",
@@ -255,7 +255,7 @@
   {
     "slug": "kerakoll-biofix",
     "name": "Biofix",
-    "brand": "Kerakoll",
+    "subtitle": "Kerakoll",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "adhesives",
@@ -285,7 +285,7 @@
   {
     "slug": "kerakoll-bioflex",
     "name": "Bioflex",
-    "brand": "Kerakoll",
+    "subtitle": "Kerakoll",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "adhesives",
@@ -316,7 +316,7 @@
   {
     "slug": "kerakoll-biotile",
     "name": "Biotile",
-    "brand": "Kerakoll",
+    "subtitle": "Kerakoll",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "adhesives",
@@ -347,7 +347,7 @@
   {
     "slug": "kerakoll-fugalite",
     "name": "Fugalite",
-    "brand": "Kerakoll",
+    "subtitle": "Kerakoll",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "grouts",
@@ -378,7 +378,7 @@
   {
     "slug": "kerakoll-h40-gel",
     "name": "H40 Gel",
-    "brand": "Kerakoll",
+    "subtitle": "Kerakoll",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "adhesives",
@@ -409,7 +409,7 @@
   {
     "slug": "kerakoll-superflex",
     "name": "Superflex",
-    "brand": "Kerakoll",
+    "subtitle": "Kerakoll",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "adhesives",
@@ -439,7 +439,7 @@
   {
     "slug": "mangalam-birla-uttam-cement",
     "name": "Mangalam Birla Uttam",
-    "brand": "Grey Cement",
+    "subtitle": "Grey Cement",
     "category": "cement",
     "categoryLabel": "Cement",
     "backAnchor": "grey-cement",
@@ -469,7 +469,7 @@
   {
     "slug": "mapei-tile-adhesive",
     "name": "Mapei Tile Adhesive",
-    "brand": "Mapei",
+    "subtitle": "Mapei",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "adhesives",
@@ -500,7 +500,7 @@
   {
     "slug": "nuvoco-cement",
     "name": "Nuvoco",
-    "brand": "Grey Cement",
+    "subtitle": "Grey Cement",
     "category": "cement",
     "categoryLabel": "Cement",
     "backAnchor": "grey-cement",
@@ -530,7 +530,7 @@
   {
     "slug": "roff-cera-clean",
     "name": "Roff Cera Clean",
-    "brand": "Roff",
+    "subtitle": "Roff",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "cleaners-other",
@@ -560,7 +560,7 @@
   {
     "slug": "roff-non-skid-adhesive",
     "name": "Roff NSA",
-    "brand": "Non-Skid Adhesive (T02)",
+    "subtitle": "Non-Skid Adhesive (T02)",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "adhesives",
@@ -585,14 +585,14 @@
       },
       {
         "slug": "roff-tile-adhesive",
-        "brand": "Roff"
+        "subtitle": "Roff"
       }
     ]
   },
   {
     "slug": "roff-tile-adhesive",
     "name": "Roff NCA",
-    "brand": "Tile Adhesive (T01)",
+    "subtitle": "Tile Adhesive (T01)",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "adhesives",
@@ -623,7 +623,7 @@
   {
     "slug": "tenax-marble-glue",
     "name": "Tenax Marble Glue",
-    "brand": "Tenax",
+    "subtitle": "Tenax",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "adhesives",
@@ -653,7 +653,7 @@
   {
     "slug": "tile-joint-filler",
     "name": "Tile Joint Filler",
-    "brand": "Grouts & Fillers",
+    "subtitle": "Grouts & Fillers",
     "category": "tile-adhesives",
     "categoryLabel": "Tile Adhesives",
     "backAnchor": "grouts",
@@ -683,7 +683,7 @@
   {
     "slug": "ultratech-cement",
     "name": "UltraTech",
-    "brand": "Grey Cement",
+    "subtitle": "Grey Cement",
     "category": "cement",
     "categoryLabel": "Cement",
     "backAnchor": "grey-cement",
@@ -714,7 +714,7 @@
   {
     "slug": "ultratech-waterproofing-tape",
     "name": "UltraTech Super Adhesive Tape",
-    "brand": "UltraTech",
+    "subtitle": "UltraTech",
     "category": "construction-accessories",
     "categoryLabel": "Construction Accessories",
     "backAnchor": null,
@@ -732,14 +732,14 @@
         "image": "/images/products/cover-blocks.webp",
         "alt": "Concrete Cover Blocks — J.B. Traders, Indore",
         "name": "Concrete Cover Blocks",
-        "brand": "Construction Accessories"
+        "subtitle": "Construction Accessories"
       }
     ]
   },
   {
     "slug": "wonder-cement",
     "name": "Wonder Cement",
-    "brand": "Grey Cement",
+    "subtitle": "Grey Cement",
     "category": "cement",
     "categoryLabel": "Cement",
     "backAnchor": "grey-cement",

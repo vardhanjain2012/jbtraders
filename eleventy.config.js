@@ -32,7 +32,7 @@ export default function (eleventyConfig) {
     products.find((p) => p.slug === slug)
   );
 
-  // A related-product entry may carry its own name/brand/image, which wins over
+  // A related-product entry may carry its own name/subtitle/image, which wins over
   // the looked-up product. Used where a card's label has historically differed
   // from the page it links to.
   eleventyConfig.addFilter("merge", (base, overrides) => ({ ...base, ...overrides }));
