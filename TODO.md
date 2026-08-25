@@ -33,6 +33,10 @@ still open — none of this content exists anywhere yet:
 - Google Search Console: verify `jbtindore.in`, submit `sitemap.xml`, request
   indexing.
 - Update the website field on Google Business Profile.
+- Fix Sunday hours on Google Business Profile — currently 9:00–14:00 there, but
+  the correct hours are 9:00 AM – 1:00 PM. The site (visible text and
+  `HardwareStore` JSON-LD in `index.html`) already says 13:00; GBP is the only
+  place still out of step.
 - Manufacturer dealer locators — UltraTech, Kerakoll, Roff, Tenax.
 - Directory cleanup — merge duplicate JustDial profiles, then IndiaMART,
   Sulekha, TradeIndia, with identical name/address/phone everywhere.
