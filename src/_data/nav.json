@@ -1,0 +1,8 @@
+[
+  { "key": "cement", "url": "/cement.html", "label": "Cement" },
+  { "key": "tile-adhesives", "url": "/tile-adhesives.html", "label": "Tile Adhesives" },
+  { "key": "sand-bricks-aggregates", "url": "/sand-bricks-aggregates.html", "label": "Sand, Bricks & Aggregates" },
+  { "key": "waterproofing", "url": "/waterproofing.html", "label": "Waterproofing" },
+  { "key": "construction-accessories", "url": "/construction-accessories.html", "label": "Accessories" },
+  { "key": "faq", "url": "/faq.html", "label": "FAQ" }
+]

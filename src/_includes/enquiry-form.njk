@@ -1,0 +1,43 @@
+    <!-- config.js holds the WhatsApp number used by the enquiry form below -->
+    <script src="config.js"></script>
+
+    <script>
+        // ==========================================
+        // WHATSAPP ENQUIRY LOGIC
+        // ==========================================
+        function sendToWhatsApp(e) {
+            e.preventDefault();
+
+            // Name is mandatory, so we will always have it
+            const name = document.getElementById('name').value.trim();
+            const phone = document.getElementById('phone').value.trim(); // Now optional
+            const details = document.getElementById('details').value.trim();
+
+            const checkboxes = document.querySelectorAll('input[name="product"]:checked');
+            let selectedProducts = [];
+            checkboxes.forEach((cb) => {
+                selectedProducts.push(cb.value);
+            });
+
+            // Format products for the sentence
+            const productText = selectedProducts.length > 0 ? selectedProducts.join(", ") : "your products";
+
+            // Build the conversational string: "Hi I am xyz and would like to enquire about abc products."
+            let messageText = `Hi I am ${name} and would like to enquire about ${productText}.`;
+
+            // Append optional details if they were provided
+            if (details) {
+                messageText += `\n\n*Additional Details:* ${details}`;
+            }
+
+            // Append optional phone if they provided one
+            if (phone) {
+                messageText += `\n*Alternate Contact Number:* ${phone}`;
+            }
+
+            // URI Encode the entire string to safely pass it in the URL
+            const finalEncodedMessage = encodeURIComponent(messageText);
+
+            window.open(`https://wa.me/${config.whatsappNumber}?text=${finalEncodedMessage}`, '_blank');
+        }
+    </script>

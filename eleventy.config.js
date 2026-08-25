@@ -1,4 +1,22 @@
 export default function (eleventyConfig) {
+  // Renders a schema.org BreadcrumbList from front-matter `breadcrumbs`.
+  eleventyConfig.addFilter("breadcrumbLd", (items) =>
+    JSON.stringify(
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: items.map((item, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: item.name,
+          item: item.url
+        }))
+      },
+      null,
+      2
+    )
+  );
+
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/sitemap.xml");

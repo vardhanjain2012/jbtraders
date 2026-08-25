@@ -1,57 +1,10 @@
-<!DOCTYPE html>
-<html lang="en-IN">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <title>Tile Adhesive &amp; Marble Stone Adhesive Dealer in Indore | J.B. Traders</title>
-    <meta name="description" content="Kerakoll, Roff, Mapei and MYK Laticrete adhesives in Indore for vitrified, wall and floor tiles, marble and natural stone — plus epoxy grouts and fillers for marble and granite repair.">
-    <link rel="canonical" href="https://jbtindore.in/tile-adhesives.html">
-    <meta name="robots" content="index, follow">
-
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="J.B. Traders">
-    <meta property="og:title" content="Tile Adhesive &amp; Marble Stone Adhesive Dealer in Indore | J.B. Traders">
-    <meta property="og:description" content="Kerakoll, Roff, Mapei and MYK Laticrete adhesives in Indore for vitrified, wall and floor tiles, marble and natural stone — plus epoxy grouts and fillers for marble and granite repair.">
-    <meta property="og:url" content="https://jbtindore.in/tile-adhesives.html">
-    <meta property="og:locale" content="en_IN">
-    <!-- TODO: og:image — 1200x630px, absolute URL. Add once photos are ready. -->
-
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body class="bg-gray-50 text-gray-800 font-sans antialiased">
-
-    <header class="bg-blue-800 text-white shadow-md sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
-            <a href="/" class="text-2xl font-bold mb-2 sm:mb-0">J.B. Traders</a>
-            <div class="flex gap-4">
-                <a href="tel:+919826077521"
-                    class="flex items-center gap-2 bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-lg transition">
-                    📞 Call Us
-                </a>
-                <a href="https://wa.me/919039677521" target="_blank"
-                    class="flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-4 py-2 rounded-lg transition font-semibold">
-                    💬 WhatsApp
-                </a>
-            </div>
-        </div>
-        <nav class="bg-blue-900">
-            <div class="max-w-6xl mx-auto px-4 py-2 flex flex-wrap justify-center sm:justify-start gap-x-6 gap-y-1 text-sm">
-                <a href="/" class="hover:underline">Home</a>
-                <a href="cement.html" class="hover:underline">Cement</a>
-                <a href="tile-adhesives.html" class="hover:underline font-bold">Tile Adhesives</a>
-                <a href="sand-bricks-aggregates.html" class="hover:underline">Sand, Bricks &amp; Aggregates</a>
-                <a href="waterproofing.html" class="hover:underline">Waterproofing</a>
-                <a href="construction-accessories.html" class="hover:underline">Accessories</a>
-                <a href="faq.html" class="hover:underline">FAQ</a>
-                <a href="/#contact" class="hover:underline">Contact</a>
-            </div>
-        </nav>
-    </header>
+---
+layout: base.njk
+title: "Tile Adhesive & Marble Stone Adhesive Dealer in Indore | J.B. Traders"
+description: "Kerakoll, Roff, Mapei and MYK Laticrete adhesives in Indore for vitrified, wall and floor tiles, marble and natural stone — plus epoxy grouts and fillers for marble and granite repair."
+navActive: "tile-adhesives"
+bodyInclude: "tabs-hash-safe.njk"
+---
 
     <section class="bg-white py-12 border-b">
         <div class="max-w-4xl mx-auto px-4">
@@ -406,49 +359,3 @@
       </div>
     </section>
 
-    <footer class="bg-gray-900 text-gray-400 text-center py-6">
-        <p>&copy; 2026 J.B. Traders · Established 1992. All rights reserved.</p>
-    </footer>
-
-    <script>
-        (function () {
-            var tabs = document.querySelectorAll('[data-tab]');
-            var panels = document.querySelectorAll('[data-panel]');
-
-            function activate(name, updateHash) {
-                tabs.forEach(function (tab) {
-                    var active = tab.dataset.tab === name;
-                    tab.setAttribute('aria-selected', active);
-                    tab.classList.toggle('bg-blue-800', active);
-                    tab.classList.toggle('text-white', active);
-                    tab.classList.toggle('bg-gray-100', !active);
-                    tab.classList.toggle('text-gray-700', !active);
-                });
-                panels.forEach(function (panel) {
-                    panel.classList.toggle('hidden', name !== 'all' && panel.dataset.panel !== name);
-                });
-                if (updateHash) {
-                    var url = name === 'all' ? location.pathname + location.search : '#' + name;
-                    history.replaceState(null, '', url);
-                }
-            }
-
-            tabs.forEach(function (tab) {
-                tab.addEventListener('click', function () {
-                    activate(tab.dataset.tab, true);
-                });
-            });
-
-            // Ignore a hash that isn't one of our tabs, so a stray anchor
-            // can't leave every panel hidden.
-            var wanted = location.hash.replace('#', '');
-            var known = Array.prototype.some.call(tabs, function (tab) {
-                return tab.dataset.tab === wanted;
-            });
-            activate(known ? wanted : 'all', false);
-        })();
-    </script>
-
-</body>
-
-</html>

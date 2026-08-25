@@ -1,0 +1,29 @@
+    <script>
+        (function () {
+            var tabs = document.querySelectorAll('[data-tab]');
+            var panels = document.querySelectorAll('[data-panel]');
+            function activate(name, updateHash) {
+                tabs.forEach(function (tab) {
+                    var active = tab.dataset.tab === name;
+                    tab.setAttribute('aria-selected', active);
+                    tab.classList.toggle('bg-blue-800', active);
+                    tab.classList.toggle('text-white', active);
+                    tab.classList.toggle('bg-gray-100', !active);
+                    tab.classList.toggle('text-gray-700', !active);
+                });
+                panels.forEach(function (panel) {
+                    panel.hidden = name !== 'all' && panel.dataset.panel !== name;
+                });
+                if (updateHash) {
+                    var url = name === 'all' ? location.pathname + location.search : '#' + name;
+                    history.replaceState(null, '', url);
+                }
+            }
+            tabs.forEach(function (tab) {
+                tab.addEventListener('click', function () {
+                    activate(tab.dataset.tab, true);
+                });
+            });
+            activate(location.hash.replace('#', '') || 'all', false);
+        })();
+    </script>

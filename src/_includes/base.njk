@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <title>{{ title }}</title>
+{%- if description %}
+    <meta name="description" content="{{ description }}">
+{%- endif %}
+{%- if canonical %}
+    <link rel="canonical" href="{{ canonical }}">
+{%- endif %}
+    <meta name="robots" content="{{ robots | default('index, follow') }}">
+{%- if canonical %}
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:locale" content="en_IN">
+    <!-- TODO: og:image — 1200x630px, absolute URL. Add once photos are ready. -->
+{%- endif %}
+
+    <script src="https://cdn.tailwindcss.com"></script>
+{%- if breadcrumbs %}
+
+    <script type="application/ld+json">
+{{ breadcrumbs | breadcrumbLd | safe }}
+    </script>
+{%- endif %}
+{%- if headInclude %}
+
+{% include headInclude %}
+{%- endif %}
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <header class="bg-blue-800 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <a href="/" class="text-2xl font-bold mb-2 sm:mb-0">{{ site.name }}</a>
+            <div class="flex gap-4">
+                <a href="tel:{{ site.phone }}"
+                    class="flex items-center gap-2 bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-lg transition">
+                    📞 Call Us
+                </a>
+                <a href="https://wa.me/{{ site.whatsapp }}" target="_blank"
+                    class="flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-4 py-2 rounded-lg transition font-semibold">
+                    💬 WhatsApp
+                </a>
+            </div>
+        </div>
+        <nav class="bg-blue-900">
+            <div class="max-w-6xl mx-auto px-4 py-2 flex flex-wrap justify-center sm:justify-start gap-x-6 gap-y-1 text-sm">
+                <a href="/" class="hover:underline">Home</a>
+{%- for item in nav %}
+                <a href="{{ item.url }}" class="hover:underline{% if navActive == item.key %} font-bold{% endif %}">{{ item.label }}</a>
+{%- endfor %}
+                <a href="/#contact" class="hover:underline">Contact</a>
+            </div>
+        </nav>
+    </header>
+{{ content | safe }}
+    <footer class="bg-gray-900 text-gray-400 text-center py-6">
+        <p>&copy; 2026 {{ site.name }} · Established 1992. All rights reserved.</p>
+    </footer>
+{%- if bodyInclude %}
+
+{% include bodyInclude %}
+{%- endif %}
+
+</body>
+
+</html>

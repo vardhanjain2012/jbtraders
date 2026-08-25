@@ -2,7 +2,7 @@
 # Baseline commit: 02c70f3176249ce952a3ee48e62325eca793ef83
 # Every path below must resolve to identical content in _site/ after migration.
 
-## HTML pages (34)
+## HTML pages (37: 34 pages + 3 redirect stubs)
 404.html
 bricks-blocks.html
 cement.html
