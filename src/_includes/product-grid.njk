@@ -50,13 +50,13 @@
                                 class="text-sm font-semibold text-blue-700 hover:underline">View details &rarr;</a>
 {%- elif item.showCall %}
                             <a href="tel:{{ site.phone }}"
-                                class="flex items-center justify-center gap-2 bg-blue-700 hover:bg-blue-600 text-white px-3 py-2 rounded-lg transition font-semibold text-sm">
+                                class="flex items-center justify-center gap-2 bg-blue-700 hover:bg-blue-600 text-white px-3 py-2 rounded-lg transition font-semibold text-sm text-center">
                                 📞 Call for Availability</a>
 {%- endif %}
                             <a href="https://wa.me/{{ site.whatsapp }}?text={{ ('Hi, I want to enquire about ' + c.enquiryName) | urlencode }}"
                                 target="_blank"
-                                class="flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-3 py-2 rounded-lg transition font-semibold text-sm">
-                                💬 Enquire</a>
+                                class="flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-3 py-2 rounded-lg transition font-semibold text-sm text-center">
+                                💬 Enquire on WhatsApp</a>
                         </div>
                     </div>
                 </article>
