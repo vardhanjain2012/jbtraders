@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "JB Traders Website",
   "scripts": {
-    "build": "eleventy",
-    "serve": "eleventy --serve"
+    "build:css": "tailwindcss -i src/css/tailwind.css -o _site/css/style.css --minify",
+    "build": "npm run build:css && eleventy",
+    "watch:css": "tailwindcss -i src/css/tailwind.css -o _site/css/style.css --watch",
+    "serve": "npm run build:css && eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,8 @@
   },
   "homepage": "https://github.com/vardhanjain2012/jbtraders#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6"
+    "@11ty/eleventy": "^3.1.6",
+    "tailwindcss": "^3.4.17"
   },
   "private": true
 }
