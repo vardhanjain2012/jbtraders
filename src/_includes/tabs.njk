@@ -21,18 +21,37 @@
                 }
             }
 
+            // The tab named by the current hash, or null when the hash isn't
+            // one of ours — a stray anchor must not leave every panel hidden.
+            function tabForHash() {
+                var wanted = location.hash.replace('#', '');
+                var known = Array.prototype.some.call(tabs, function (tab) {
+                    return tab.dataset.tab === wanted;
+                });
+                return known ? wanted : null;
+            }
+
             tabs.forEach(function (tab) {
                 tab.addEventListener('click', function () {
                     activate(tab.dataset.tab, true);
                 });
             });
 
-            // Ignore a hash that isn't one of our tabs, so a stray anchor
-            // can't leave every panel hidden.
-            var wanted = location.hash.replace('#', '');
-            var known = Array.prototype.some.call(tabs, function (tab) {
-                return tab.dataset.tab === wanted;
+            // A hash link pointing at the page you're already on is a
+            // same-document navigation, so nothing reloads and the tabs would
+            // otherwise stay put. An unknown hash is left alone rather than
+            // reset to 'all' — it belongs to some other anchor, and resetting
+            // would throw away the tab the reader had open.
+            window.addEventListener('hashchange', function () {
+                var name = tabForHash();
+                if (!name) return;
+                activate(name, false);
+                // The browser scrolled before we hid the other panels, so the
+                // target has moved up the page. Put it back in view.
+                var target = document.getElementById(location.hash.slice(1));
+                if (target) target.scrollIntoView();
             });
-            activate(known ? wanted : 'all', false);
+
+            activate(tabForHash() || 'all', false);
         })();
     </script>
