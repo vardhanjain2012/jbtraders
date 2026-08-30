@@ -608,6 +608,42 @@
     "backAnchor": "adhesives"
   },
   {
+    "slug": "ardex-endura-diamond-star",
+    "name": "Diamond Star",
+    "subtitle": "Ardex Endura",
+    "category": "tile-adhesives",
+    "tab": "adhesives",
+    "image": "ardex-endura-diamond-star.webp",
+    "alt": "Diamond Star — J.B. Traders, Indore",
+    "enquiryName": "Diamond Star",
+    "hasPage": true,
+    "card": {
+      "alt": "Ardex Endura Diamond Star — J.B. Traders, Indore",
+      "enquiryName": "Ardex Endura Diamond Star"
+    },
+    "title": "Diamond Star — Ardex Endura Tile Adhesive in Indore | J.B. Traders",
+    "description": "Diamond Star is a high performance, polymer modified, non-slip tile adhesive from Ardex Endura for vitrified and ceramic tiles.",
+    "paragraphs": [
+      "Diamond Star is a high performance, polymer modified, non-slip tile adhesive from Ardex Endura, giving very high bond strength and water resistance with smooth application and better workability.",
+      "Available in 20 kg bags."
+    ],
+    "related": [
+      {
+        "slug": "kerakoll-biotile"
+      },
+      {
+        "slug": "kerakoll-biofix"
+      },
+      {
+        "slug": "kerakoll-bioflex"
+      },
+      {
+        "slug": "kerakoll-h40-gel"
+      }
+    ],
+    "backAnchor": "adhesives"
+  },
+  {
     "slug": "kerakoll-fugalite",
     "name": "Fugalite",
     "subtitle": "Kerakoll",
